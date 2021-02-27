@@ -1,0 +1,1 @@
+start cmd /c "E:\\!\\WeChatProtocol V3.4\\WeChatProtocol\\bin\\Debug\\WeChatProtocol.exe" %1 %2 %3 %4

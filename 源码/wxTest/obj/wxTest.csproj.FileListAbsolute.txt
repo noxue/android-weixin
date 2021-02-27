@@ -1,0 +1,8 @@
+E:\weixin\wxTest\wxTest\bin\Debug\wxTest.exe
+E:\weixin\wxTest\wxTest\bin\Debug\wxTest.pdb
+E:\weixin\wxTest\wxTest\obj\Debug\ResolveAssemblyReference.cache
+E:\weixin\wxTest\wxTest\obj\Debug\wxTest.MainForm.resources
+E:\weixin\wxTest\wxTest\obj\Debug\wxTest.Properties.Resources.resources
+E:\weixin\wxTest\wxTest\obj\Debug\wxTest.csproj.GenerateResource.Cache
+E:\weixin\wxTest\wxTest\obj\Debug\wxTest.exe
+E:\weixin\wxTest\wxTest\obj\Debug\wxTest.pdb

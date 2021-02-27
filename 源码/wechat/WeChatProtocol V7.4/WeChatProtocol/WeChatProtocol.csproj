@@ -1,0 +1,535 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3038C85E-DC9C-40A2-BF46-E5271690BC8A}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WeChatProtocol</RootNamespace>
+    <AssemblyName>WeChatProtocol</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>WeChatProtocol.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>WeChatProtocol.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MicroMsgCommon, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\MicroMsgCommon.dll</HintPath>
+    </Reference>
+    <Reference Include="MongoDB, Version=0.90.0.1, Culture=neutral, PublicKeyToken=f61bd00ba2535278, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\MongoDB.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="ProtoBufferDll, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\dll\ProtoBufferDll.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="MicroMsg.Common.Utils\AES.cs" />
+    <Compile Include="MicroMsg.Common.Utils\CmdItemHelper.cs" />
+    <Compile Include="MicroMsg.Common.Utils\DES.cs" />
+    <Compile Include="MicroMsg.Common.Utils\Log.cs" />
+    <Compile Include="MicroMsg.Common.Utils\MongoDbHelper.cs" />
+    <Compile Include="MicroMsg.Common.Utils\RedisConfig.cs" />
+    <Compile Include="MicroMsg.Common.Utils\Util.cs" />
+    <Compile Include="MicroMsg.Common.Utils\WorkThread.cs" />
+    <Compile Include="MicroMsg.Common.Utils\Zlib.cs" />
+    <Compile Include="MicroMsg.Manager\AppMsgInfo.cs" />
+    <Compile Include="MicroMsg.Manager\AppMsgInnerType.cs" />
+    <Compile Include="MicroMsg.Manager\AppMsgMgr.cs" />
+    <Compile Include="MicroMsg.Manager\AppMusicInfo.cs" />
+    <Compile Include="MicroMsg.Manager\ChatMsgHelper.cs" />
+    <Compile Include="MicroMsg.Manager\MMReaderInfo.cs" />
+    <Compile Include="MicroMsg.Manager\MMReaderItem.cs" />
+    <Compile Include="MicroMsg.Manager\MMReaderItemSource.cs" />
+    <Compile Include="MicroMsg.Manager\MMReaderTopNew.cs" />
+    <Compile Include="MicroMsg.Manager\MsgUIStatus.cs" />
+    <Compile Include="MicroMsg.Manager\MsgXmlNode.cs" />
+    <Compile Include="MicroMsg.Manager\SnsInfoMgr.cs" />
+    <Compile Include="MicroMsg.Plugin.Plugin_Reply\Plugin_Reply.cs" />
+    <Compile Include="MicroMsg.Plugin.Sns.Scene\CommentArg.cs" />
+    <Compile Include="MicroMsg.Plugin.Sns.Scene\CommentType.cs" />
+    <Compile Include="MicroMsg.Plugin.Sns.Scene\NetSceneSnsComment.cs" />
+    <Compile Include="MicroMsg.Plugin.Sns.Scene\NetSceneSnsDetail.cs" />
+    <Compile Include="MicroMsg.Plugin.Sns.Scene\NetSceneSnsPost.cs" />
+    <Compile Include="MicroMsg.Plugin.Sns.Scene\NetSceneSnsTimeLine.cs" />
+    <Compile Include="MicroMsg.Plugin.Sns.Scene\NetSceneSnsUserPage.cs" />
+    <Compile Include="MicroMsg.Plugin.Sns.Scene\SnsCommentNeedSend.cs" />
+    <Compile Include="MicroMsg.Plugin.Sns.Scene\SnsCommentNeedSendMap.cs" />
+    <Compile Include="MicroMsg.Plugin.Sns.Scene\SnsCommentService.cs" />
+    <Compile Include="MicroMsg.Plugin.Sns.Scene\SnsCommentServiceCenter.cs" />
+    <Compile Include="MicroMsg.Plugin.Sns.Scene\SnsRetCode.cs" />
+    <Compile Include="MicroMsg.Plugin.Sns.Scene\SnsUserPageCallBack.cs" />
+    <Compile Include="MicroMsg.Plugin.WCPay.Scene\NetSceneRedEnvelopes.cs" />
+    <Compile Include="MicroMsg.Plugin.WCPay.Scene\NetSceneRedEnvelopesCallback.cs" />
+    <Compile Include="MicroMsg.Plugin.WCPay.Scene\NetSceneTenPay.cs" />
+    <Compile Include="MicroMsg.Plugin.WCPay.Scene\RedEnvelopesUtils.cs" />
+    <Compile Include="MicroMsg.Plugin.WCPay\ENWCRedEnvelopesKind.cs" />
+    <Compile Include="MicroMsg.Plugin.WCPay\ENWCRedEnvelopesStatus.cs" />
+    <Compile Include="MicroMsg.Plugin.WCPay\ENWCRedEnvelopesType.cs" />
+    <Compile Include="MicroMsg.Plugin.WCPay\ENWCRedEnvelopesUserReceiveStatus.cs" />
+    <Compile Include="MicroMsg.Plugin.WCPay\PayUtils.cs" />
+    <Compile Include="MicroMsg.Plugin.WCPay\WCRedEnvelopesAtomicInfo.cs" />
+    <Compile Include="MicroMsg.Plugin.WCPay\WCRedEnvelopesDetailInfo.cs" />
+    <Compile Include="MicroMsg.Plugin.WCPay\WCRedEnvelopesOperationInfo.cs" />
+    <Compile Include="MicroMsg.Plugin.WCPay\WCRedEnvelopesReceiverInfo.cs" />
+    <Compile Include="MicroMsg.Plugin.WCRedEnvelopes.Scene\RedEnvelopesOpen.cs" />
+    <Compile Include="MicroMsg.Protocol\MMPKG_mini_header.cs" />
+    <Compile Include="MicroMsg.Protocol\PackMini.cs" />
+    <Compile Include="MicroMsg.Scene.ChatRoom\AddChatRoomMemberService.cs" />
+    <Compile Include="MicroMsg.Scene.ChatRoom\CreateChatRoomService.cs" />
+    <Compile Include="MicroMsg.Scene.ChatRoom\DelChatRoomMemberService.cs" />
+    <Compile Include="MicroMsg.Scene.ChatRoom\GroupCardService.cs" />
+    <Compile Include="MicroMsg.Scene.ChatRoom\NetSceneAddChatRoomMember.cs" />
+    <Compile Include="MicroMsg.Scene.ChatRoom\NetSceneAddChatRoomMemberResult.cs" />
+    <Compile Include="MicroMsg.Scene.ChatRoom\NetSceneCreateChatRoom.cs" />
+    <Compile Include="MicroMsg.Scene.ChatRoom\NetSceneCreateChatRoomResult.cs" />
+    <Compile Include="MicroMsg.Scene.ChatRoom\NetSceneDelChatRoomMember.cs" />
+    <Compile Include="MicroMsg.Scene.ChatRoom\NetSceneDelChatRoomMemberResult.cs" />
+    <Compile Include="MicroMsg.Scene.ChatRoom\NetSceneGroupCard.cs" />
+    <Compile Include="MicroMsg.Scene.ChatRoom\NSGetChatroomMemberDetail.cs" />
+    <Compile Include="MicroMsg.Scene.ChatRoom\NSInviteChatRoomMember.cs" />
+    <Compile Include="MicroMsg.Scene.Image\CImgMsgContext.cs" />
+    <Compile Include="MicroMsg.Scene.Image\DownloadImgContext.cs" />
+    <Compile Include="MicroMsg.Scene.Image\DownloadImgContextMgr.cs" />
+    <Compile Include="MicroMsg.Scene.Image\DownloadImgService.cs" />
+    <Compile Include="MicroMsg.Scene.Image\NetSceneDownloadCdnImg.cs" />
+    <Compile Include="MicroMsg.Scene.Image\NetSceneDownloadImg.cs" />
+    <Compile Include="MicroMsg.Scene.Image\NetSceneUploadCDNImage.cs" />
+    <Compile Include="MicroMsg.Scene.Image\NetSceneUploadImage.cs" />
+    <Compile Include="MicroMsg.Scene.Image\ParamEx.cs" />
+    <Compile Include="MicroMsg.Scene.Image\ParamImgDownProgress.cs" />
+    <Compile Include="MicroMsg.Scene.Image\ParamReturn.cs" />
+    <Compile Include="MicroMsg.Scene.Image\UpLoadImgContext.cs" />
+    <Compile Include="MicroMsg.Scene.Image\UpLoadImgContextMgr.cs" />
+    <Compile Include="MicroMsg.Scene.Image\UploadImgService.cs" />
+    <Compile Include="MicroMsg.Scene.Video\DownloadVideoContext.cs" />
+    <Compile Include="MicroMsg.Scene.Video\DownloadVideoContextMgr.cs" />
+    <Compile Include="MicroMsg.Scene.Video\DownloadVideoService.cs" />
+    <Compile Include="MicroMsg.Scene.Video\enVideoFuncFlag.cs" />
+    <Compile Include="MicroMsg.Scene.Video\NetSceneDownloadVideo.cs" />
+    <Compile Include="MicroMsg.Scene.Video\NetSceneUploadCdnVideo.cs" />
+    <Compile Include="MicroMsg.Scene.Video\NetSceneUploadVideo.cs" />
+    <Compile Include="MicroMsg.Scene.Video\UploadVideoContext.cs" />
+    <Compile Include="MicroMsg.Scene.Video\UploadVideoContextMgr.cs" />
+    <Compile Include="MicroMsg.Scene.Video\UploadVideoService.cs" />
+    <Compile Include="MicroMsg.Scene.Video\VideoDetailInfo.cs" />
+    <Compile Include="MicroMsg.Scene.Voice\DownloadPackNum.cs" />
+    <Compile Include="MicroMsg.Scene.Voice\DownloadVoiceContext.cs" />
+    <Compile Include="MicroMsg.Scene.Voice\DownloadVoiceContextMgr.cs" />
+    <Compile Include="MicroMsg.Scene.Voice\DownloadVoiceService.cs" />
+    <Compile Include="MicroMsg.Scene.Voice\DownloadVoiceStorage.cs" />
+    <Compile Include="MicroMsg.Scene.Voice\IRecorderContext.cs" />
+    <Compile Include="MicroMsg.Scene.Voice\NetSceneDownloadVoice.cs" />
+    <Compile Include="MicroMsg.Scene.Voice\NetSceneUploadVoice.cs" />
+    <Compile Include="MicroMsg.Scene.Voice\onSceneDownloadFinishedDelegate.cs" />
+    <Compile Include="MicroMsg.Scene.Voice\onSceneFinishedDelegate.cs" />
+    <Compile Include="MicroMsg.Scene.Voice\RecorderVoiceHandler.cs" />
+    <Compile Include="MicroMsg.Scene.Voice\UploadVoiceContext.cs" />
+    <Compile Include="MicroMsg.Scene.Voice\UploadVoiceContextLoader.cs" />
+    <Compile Include="MicroMsg.Scene.Voice\UploadVoiceContextMgr.cs" />
+    <Compile Include="MicroMsg.Scene.Voice\UploadVoiceEventArgs.cs" />
+    <Compile Include="MicroMsg.Scene.Voice\UploadVoiceProgress.cs" />
+    <Compile Include="MicroMsg.Scene.Voice\UploadVoiceRecorder.cs" />
+    <Compile Include="MicroMsg.Scene.Voice\UploadVoiceService.cs" />
+    <Compile Include="MicroMsg.Scene\A8KeyInfo.cs" />
+    <Compile Include="MicroMsg.Scene\AddContactEventArgs.cs" />
+    <Compile Include="MicroMsg.Scene\AddContactScene.cs" />
+    <Compile Include="MicroMsg.Scene\AppMsgSouce.cs" />
+    <Compile Include="MicroMsg.Scene\ContextMgrBase.cs" />
+    <Compile Include="MicroMsg.Scene\DownloadContextBase.cs" />
+    <Compile Include="MicroMsg.Scene\DownNetSceneBaseEx.cs" />
+    <Compile Include="MicroMsg.Scene\enMMScanQrcodeActionCode.cs" />
+    <Compile Include="MicroMsg.Scene\GetA8KeyOpCode.cs" />
+    <Compile Include="MicroMsg.Scene\GetA8KeyScene.cs" />
+    <Compile Include="MicroMsg.Scene\GetLoginQRCode.cs" />
+    <Compile Include="MicroMsg.Scene\IContextBase.cs" />
+    <Compile Include="MicroMsg.Scene\MsgResultRet.cs" />
+    <Compile Include="MicroMsg.Scene\NetSceneAddSafeDevice.cs" />
+    <Compile Include="MicroMsg.Scene\NetSceneBatchGetContact.cs" />
+    <Compile Include="MicroMsg.Scene\NetSceneBindOpMobileForReg.cs" />
+    <Compile Include="MicroMsg.Scene\NetSceneCheckLoginQRCode.cs" />
+    <Compile Include="MicroMsg.Scene\NetSceneGetA8Key.cs" />
+    <Compile Include="MicroMsg.Scene\NetSceneGetChatRoomMsg.cs" />
+    <Compile Include="MicroMsg.Scene\NetSceneGetUserName.cs" />
+    <Compile Include="MicroMsg.Scene\NetSceneInitContact.cs" />
+    <Compile Include="MicroMsg.Scene\NetSceneNewAuth.cs" />
+    <Compile Include="MicroMsg.Scene\NetSceneNewReg.cs" />
+    <Compile Include="MicroMsg.Scene\NetSceneReg.cs" />
+    <Compile Include="MicroMsg.Scene\NetSceneSearchContact.cs" />
+    <Compile Include="MicroMsg.Scene\NetSceneSendAppMsg.cs" />
+    <Compile Include="MicroMsg.Scene\NetSceneSendCard.cs" />
+    <Compile Include="MicroMsg.Scene\NetSceneSendMsg.cs" />
+    <Compile Include="MicroMsg.Scene\NetSceneSendMsgOld.cs" />
+    <Compile Include="MicroMsg.Scene\NetSceneSyncCheck.cs" />
+    <Compile Include="MicroMsg.Scene\NetSceneVerifyUser.cs" />
+    <Compile Include="MicroMsg.Scene\onSendAppMsgFinished.cs" />
+    <Compile Include="MicroMsg.Scene\SendCardType.cs" />
+    <Compile Include="MicroMsg.Scene\UploadAppMsgContext.cs" />
+    <Compile Include="MicroMsg.Scene\VerifyUserOpCode.cs" />
+    <Compile Include="MicroMsg.Storage\BottleContact.cs" />
+    <Compile Include="MicroMsg.Storage\ChatRoomXmlData.cs" />
+    <Compile Include="MicroMsg.Storage\CheckQrcode.cs" />
+    <Compile Include="MicroMsg.Storage\GetLoginQrcode.cs" />
+    <Compile Include="MicroMsg.Storage\MsgTrans.cs" />
+    <Compile Include="MicroMsg\AddChatRoomMemberRequest.cs" />
+    <Compile Include="MicroMsg\AdditionalContactList.cs" />
+    <Compile Include="MicroMsg\AddSafeDeviceRequest.cs" />
+    <Compile Include="MicroMsg\AddSafeDeviceResponse.cs" />
+    <Compile Include="MicroMsg\AppMsg.cs" />
+    <Compile Include="MicroMsg\BindOpMobileRequest.cs" />
+    <Compile Include="MicroMsg\BindOpMobileResponse.cs" />
+    <Compile Include="MicroMsg\ChatRoomMemberData.cs" />
+    <Compile Include="MicroMsg\ChatRoomMemberInfo.cs" />
+    <Compile Include="MicroMsg\CreateChatRoomRequest.cs" />
+    <Compile Include="MicroMsg\CreateChatRoomResponse.cs" />
+    <Compile Include="MicroMsg\DelChatRoomMemberRequest.cs" />
+    <Compile Include="MicroMsg\DelChatRoomMemberResponse.cs" />
+    <Compile Include="MicroMsg\DelMemberReq.cs" />
+    <Compile Include="MicroMsg\DelMemberResp.cs" />
+    <Compile Include="MicroMsg\DownloadVideoRequest.cs" />
+    <Compile Include="MicroMsg\DownloadVideoResponse.cs" />
+    <Compile Include="MicroMsg\DownloadVoiceRequest.cs" />
+    <Compile Include="MicroMsg\DownloadVoiceResponse.cs" />
+    <Compile Include="MicroMsg\GeneralControlBitSet.cs" />
+    <Compile Include="MicroMsg\GetA8KeyReq.cs" />
+    <Compile Include="MicroMsg\GetA8KeyResp.cs" />
+    <Compile Include="MicroMsg\GetChatroomMemberDetailRequest .cs" />
+    <Compile Include="MicroMsg\GetChatroomMemberDetailResponse.cs" />
+    <Compile Include="MicroMsg\GetContactRequest.cs" />
+    <Compile Include="MicroMsg\GetContactResponse.cs" />
+    <Compile Include="MicroMsg\GetMsgImgRequest.cs" />
+    <Compile Include="MicroMsg\GetMsgImgResponse.cs" />
+    <Compile Include="MicroMsg\GetUserNameRequest.cs" />
+    <Compile Include="MicroMsg\GroupCardRequest.cs" />
+    <Compile Include="MicroMsg\GroupCardResponse.cs" />
+    <Compile Include="MicroMsg\HongBaoReq.cs" />
+    <Compile Include="MicroMsg\HongBaoRes.cs" />
+    <Compile Include="MicroMsg\InviteChatRoomMemberRequest.cs" />
+    <Compile Include="MicroMsg\InviteChatRoomMemberResponse.cs" />
+    <Compile Include="MicroMsg\JSAPIPermissionBitSet.cs" />
+    <Compile Include="MicroMsg\LinkedinContactItem.cs" />
+    <Compile Include="MicroMsg\MemberReq.cs" />
+    <Compile Include="MicroMsg\MicroMsgRequest.cs" />
+    <Compile Include="MicroMsg\MicroMsgRequestNew.cs" />
+    <Compile Include="MicroMsg\MicroMsgResponse.cs" />
+    <Compile Include="MicroMsg\MicroMsgResponseNew.cs" />
+    <Compile Include="MicroMsg\NewAuthRequest.cs" />
+    <Compile Include="MicroMsg\NewAuthResponse.cs" />
+    <Compile Include="MicroMsg\NewRegRequest.cs" />
+    <Compile Include="MicroMsg\NewRegResponse.cs" />
+    <Compile Include="MicroMsg\RegRequest.cs" />
+    <Compile Include="MicroMsg\RegResponse.cs" />
+    <Compile Include="MicroMsg\SearchContactItem.cs" />
+    <Compile Include="MicroMsg\SearchContactRequest.cs" />
+    <Compile Include="MicroMsg\SearchContactResponse.cs" />
+    <Compile Include="MicroMsg\SendAppMsgRequest.cs" />
+    <Compile Include="MicroMsg\SendAppMsgResponse.cs" />
+    <Compile Include="MicroMsg\SendCardRequest.cs" />
+    <Compile Include="MicroMsg\SendCardResponse.cs" />
+    <Compile Include="MicroMsg\SendMsgRequest.cs" />
+    <Compile Include="MicroMsg\SendMsgRequestNew.cs" />
+    <Compile Include="MicroMsg\SendMsgResponse.cs" />
+    <Compile Include="MicroMsg\SendMsgResponseNew.cs" />
+    <Compile Include="MicroMsg\ShowStyleKey.cs" />
+    <Compile Include="MicroMsg\SnsCommentRequest.cs" />
+    <Compile Include="MicroMsg\SnsCommentResponse.cs" />
+    <Compile Include="MicroMsg\SnsObjectDetailRequest.cs" />
+    <Compile Include="MicroMsg\SnsObjectDetailResponse.cs" />
+    <Compile Include="MicroMsg\SnsPostCtocUploadInfo.cs" />
+    <Compile Include="MicroMsg\SnsPostRequest.cs" />
+    <Compile Include="MicroMsg\SnsTimeLineRequest.cs" />
+    <Compile Include="MicroMsg\SnsTimeLineResponse.cs" />
+    <Compile Include="MicroMsg\SnsUserPageRequest.cs" />
+    <Compile Include="MicroMsg\SnsUserPageResponse.cs" />
+    <Compile Include="MicroMsg\StyleKeyVal.cs" />
+    <Compile Include="MicroMsg\TenPayRequest.cs" />
+    <Compile Include="MicroMsg\TenPayResponse.cs" />
+    <Compile Include="MicroMsg\TwitterInfo.cs" />
+    <Compile Include="MicroMsg\UploadMsgImgRequest.cs" />
+    <Compile Include="MicroMsg\UploadMsgImgResponse.cs" />
+    <Compile Include="MicroMsg\UploadVideoRequest.cs" />
+    <Compile Include="MicroMsg\UploadVideoResponse.cs" />
+    <Compile Include="MicroMsg\UploadVoiceRequest.cs" />
+    <Compile Include="MicroMsg\UploadVoiceResponse.cs" />
+    <Compile Include="MicroMsg\VerifyUser.cs" />
+    <Compile Include="MicroMsg\VerifyUserRequest.cs" />
+    <Compile Include="MicroMsg\VerifyUserResponse.cs" />
+    <Compile Include="sendForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sendForm.Designer.cs">
+      <DependentUpon>sendForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MicroMsg.Common.Event\BaseEventArgs.cs" />
+    <Compile Include="MicroMsg.Common.Event\DispatcherEventDelegate.cs" />
+    <Compile Include="MicroMsg.Common.Event\EventCenter.cs" />
+    <Compile Include="MicroMsg.Common.Event\EventConst.cs" />
+    <Compile Include="MicroMsg.Common.Event\EventHandlerDelegate.cs" />
+    <Compile Include="MicroMsg.Common.Event\EventObject.cs" />
+    <Compile Include="MicroMsg.Common.Event\EventWatcher.cs" />
+    <Compile Include="MicroMsg.Common.Timer\TimerEventArgs.cs" />
+    <Compile Include="MicroMsg.Common.Timer\TimerObject.cs" />
+    <Compile Include="MicroMsg.Common.Timer\TimerParams.cs" />
+    <Compile Include="MicroMsg.Common.Timer\TimerService.cs" />
+    <Compile Include="MicroMsg.Common.Timer\TimerSource.cs" />
+    <Compile Include="MicroMsg.Manager\AccountMgr.cs" />
+    <Compile Include="MicroMsg.Manager\BrandInfo.cs" />
+    <Compile Include="MicroMsg.Manager\ChatRoomMgr.cs" />
+    <Compile Include="MicroMsg.Manager\ConferenceUrlInfo.cs" />
+    <Compile Include="MicroMsg.Manager\ConstantValue.cs" />
+    <Compile Include="MicroMsg.Manager\ContactHelper.cs" />
+    <Compile Include="MicroMsg.Manager\ContactMgr.cs" />
+    <Compile Include="MicroMsg.Manager\enKVStatKey.cs" />
+    <Compile Include="MicroMsg.Manager\ExtInfo.cs" />
+    <Compile Include="MicroMsg.Manager\KVStat.cs" />
+    <Compile Include="MicroMsg.Manager\onAccountLoginCallback.cs" />
+    <Compile Include="MicroMsg.Manager\OpLogMgr.cs" />
+    <Compile Include="MicroMsg.Manager\SelfPersonCard.cs" />
+    <Compile Include="MicroMsg.Manager\SnsAsyncMgr.cs" />
+    <Compile Include="MicroMsg.Manager\SnsAsyncQueue.cs" />
+    <Compile Include="MicroMsg.Manager\SnsOpLog.cs" />
+    <Compile Include="MicroMsg.Manager\SyncData.cs" />
+    <Compile Include="MicroMsg.Manager\SyncInfo.cs" />
+    <Compile Include="MicroMsg.Network\AccountInfo.cs" />
+    <Compile Include="MicroMsg.Network\AuthPack.cs" />
+    <Compile Include="MicroMsg.Network\CmdFunc.cs" />
+    <Compile Include="MicroMsg.Network\Connector.cs" />
+    <Compile Include="MicroMsg.Network\ConntectorStatus.cs" />
+    <Compile Include="MicroMsg.Network\DefineHttpHeaderDelegate.cs" />
+    <Compile Include="MicroMsg.Network\DNSHostItemInfo.cs" />
+    <Compile Include="MicroMsg.Network\HostService.cs" />
+    <Compile Include="MicroMsg.Network\HttpClient.cs" />
+    <Compile Include="MicroMsg.Network\IDCDnsHost.cs" />
+    <Compile Include="MicroMsg.Network\ListNode.cs" />
+    <Compile Include="MicroMsg.Network\LongConnector.cs" />
+    <Compile Include="MicroMsg.Network\NetHandler.cs" />
+    <Compile Include="MicroMsg.Network\NetPack.cs" />
+    <Compile Include="MicroMsg.Network\OnCallback.cs" />
+    <Compile Include="MicroMsg.Network\OnHttpReceivedProgressDelegate.cs" />
+    <Compile Include="MicroMsg.Network\OnResponseParserDelegate.cs" />
+    <Compile Include="MicroMsg.Network\PackEventArgs.cs" />
+    <Compile Include="MicroMsg.Network\PackProgress.cs" />
+    <Compile Include="MicroMsg.Network\PackResult.cs" />
+    <Compile Include="MicroMsg.Network\Queue.cs" />
+    <Compile Include="MicroMsg.Network\Receiver.cs" />
+    <Compile Include="MicroMsg.Network\ReceiverType.cs" />
+    <Compile Include="MicroMsg.Network\RequestToByteArrayDelegate.cs" />
+    <Compile Include="MicroMsg.Network\Sender.cs" />
+    <Compile Include="MicroMsg.Network\ServerAddress.cs" />
+    <Compile Include="MicroMsg.Network\ServerBulletin.cs" />
+    <Compile Include="MicroMsg.Network\ServerHost.cs" />
+    <Compile Include="MicroMsg.Network\SessionPack.cs" />
+    <Compile Include="MicroMsg.Network\SessionPackCompletedDelegate.cs" />
+    <Compile Include="MicroMsg.Network\SessionPackMgr.cs" />
+    <Compile Include="MicroMsg.Network\ShortConnector.cs" />
+    <Compile Include="MicroMsg.Network\SocketClient.cs" />
+    <Compile Include="MicroMsg.Plugin.Sns.Scene\NetSceneSnsObjectOp.cs" />
+    <Compile Include="MicroMsg.Plugin.Sns.Scene\NetSceneSnsObjectOpCallBack.cs" />
+    <Compile Include="MicroMsg.Plugin.Sns.Scene\NetSceneSnsSync.cs" />
+    <Compile Include="MicroMsg.Plugin.Sns.Scene\SnsObjectOpType.cs" />
+    <Compile Include="MicroMsg.Plugin\EPluginFlag.cs" />
+    <Compile Include="MicroMsg.Plugin\ExtentCenter.cs" />
+    <Compile Include="MicroMsg.Plugin\ExternPluginList.cs" />
+    <Compile Include="MicroMsg.Plugin\InstallMode.cs" />
+    <Compile Include="MicroMsg.Plugin\MainTabIndex.cs" />
+    <Compile Include="MicroMsg.Plugin\PluginBase.cs" />
+    <Compile Include="MicroMsg.Plugin\PluginBaseEx.cs" />
+    <Compile Include="MicroMsg.Plugin\PluginEntryType.cs" />
+    <Compile Include="MicroMsg.Plugin\PluginLoader.cs" />
+    <Compile Include="MicroMsg.Plugin\PluginManager.cs" />
+    <Compile Include="MicroMsg.Plugin\PluginMetaInfo.cs" />
+    <Compile Include="MicroMsg.Plugin\PluginMetaMap.cs" />
+    <Compile Include="MicroMsg.Plugin\PluginMetaStorage.cs" />
+    <Compile Include="MicroMsg.Protocol\CmdConst.cs" />
+    <Compile Include="MicroMsg.Protocol\ConstantsProtocol.cs" />
+    <Compile Include="MicroMsg.Protocol\MMFuncConst.cs" />
+    <Compile Include="MicroMsg.Protocol\MMPack.cs" />
+    <Compile Include="MicroMsg.Protocol\MMTLVHeader.cs" />
+    <Compile Include="MicroMsg.Protocol\PackUtils.cs" />
+    <Compile Include="MicroMsg.Protocol\ReportConst.cs" />
+    <Compile Include="MicroMsg.Protocol\RetConst.cs" />
+    <Compile Include="MicroMsg.Protocol\TLVPack.cs" />
+    <Compile Include="MicroMsg.Protocol\TLVTypeTransform.cs" />
+    <Compile Include="MicroMsg.Protocol\TLVUtil.cs" />
+    <Compile Include="MicroMsg.Protocol\Types.cs" />
+    <Compile Include="MicroMsg.Scene\NetSceneAuth.cs" />
+    <Compile Include="MicroMsg.Scene\NetSceneBase.cs" />
+    <Compile Include="MicroMsg.Scene\NetSceneBaseEx.cs" />
+    <Compile Include="MicroMsg.Scene\NetSceneNewInit.cs" />
+    <Compile Include="MicroMsg.Scene\NetSceneNewSync.cs" />
+    <Compile Include="MicroMsg.Scene\NetSceneSyncResult.cs" />
+    <Compile Include="MicroMsg.Scene\NetSceneWeixinStatus.cs" />
+    <Compile Include="MicroMsg.Scene\RecvMsgStatus.cs" />
+    <Compile Include="MicroMsg.Scene\SearchContactInfo.cs" />
+    <Compile Include="MicroMsg.Scene\ServiceCenter.cs" />
+    <Compile Include="MicroMsg.Scene\SyncCmdID.cs" />
+    <Compile Include="MicroMsg.Scene\syncScene.cs" />
+    <Compile Include="MicroMsg.Scene\SyncStatus.cs" />
+    <Compile Include="MicroMsg.Storage\Account.cs" />
+    <Compile Include="MicroMsg.Storage\ChatMsg.cs" />
+    <Compile Include="MicroMsg.Storage\ChatRoomInfo.cs" />
+    <Compile Include="MicroMsg.Storage\Contact.cs" />
+    <Compile Include="MicroMsg.Storage\ContactXmlData.cs" />
+    <Compile Include="MicroMsg.Storage\ContactXmlDataSerial.cs" />
+    <Compile Include="MicroMsg.Storage\ContentObject.cs" />
+    <Compile Include="MicroMsg.Storage\Conversation.cs" />
+    <Compile Include="MicroMsg.Storage\FileDetail.cs" />
+    <Compile Include="MicroMsg.Storage\MsgXmlData.cs" />
+    <Compile Include="MicroMsg.Storage\OpLog.cs" />
+    <Compile Include="MicroMsg.Storage\SnsComment.cs" />
+    <Compile Include="MicroMsg.Storage\SnsCommentList.cs" />
+    <Compile Include="MicroMsg.Storage\SnsGroupList.cs" />
+    <Compile Include="MicroMsg.Storage\SnsInfo.cs" />
+    <Compile Include="MicroMsg.Storage\SnsMsg.cs" />
+    <Compile Include="MicroMsg.Storage\SnsMsgDetail.cs" />
+    <Compile Include="MicroMsg.Storage\StorageIO.cs" />
+    <Compile Include="MicroMsg.Storage\StorageIOInfo.cs" />
+    <Compile Include="MicroMsg.Storage\StorageItem.cs" />
+    <Compile Include="MicroMsg.Storage\StorageXml.cs" />
+    <Compile Include="MicroMsg.Storage\TimeLineObject.cs" />
+    <Compile Include="MicroMsg.Storage\TloAppInfo.cs" />
+    <Compile Include="MicroMsg.Storage\TloLocation.cs" />
+    <Compile Include="MicroMsg.Storage\TloMedia.cs" />
+    <Compile Include="MicroMsg.Storage\TloXmlItem.cs" />
+    <Compile Include="MicroMsg.Storage\XmlSeriData.cs" />
+    <Compile Include="MicroMsg\AddChatRoomMemberResponse.cs" />
+    <Compile Include="MicroMsg\AddMsg.cs" />
+    <Compile Include="MicroMsg\AuthRequest.cs" />
+    <Compile Include="MicroMsg\AuthResponse.cs" />
+    <Compile Include="MicroMsg\BaseRequest.cs" />
+    <Compile Include="MicroMsg\BaseResponse.cs" />
+    <Compile Include="MicroMsg\BuiltinIP.cs" />
+    <Compile Include="MicroMsg\BuiltinIPList.cs" />
+    <Compile Include="MicroMsg\CDNDnsInfo.cs" />
+    <Compile Include="MicroMsg\CloseMicroBlog.cs" />
+    <Compile Include="MicroMsg\CmdItem.cs" />
+    <Compile Include="MicroMsg\CmdList.cs" />
+    <Compile Include="MicroMsg\CustomizedInfo.cs" />
+    <Compile Include="MicroMsg\DelChatContact.cs" />
+    <Compile Include="MicroMsg\DelContact.cs" />
+    <Compile Include="MicroMsg\DelContactMsg.cs" />
+    <Compile Include="MicroMsg\DeleteBottle.cs" />
+    <Compile Include="MicroMsg\DelMsg.cs" />
+    <Compile Include="MicroMsg\DelUserDomainEmail.cs" />
+    <Compile Include="MicroMsg\DisturbSetting.cs" />
+    <Compile Include="MicroMsg\DisturbTimeSpan.cs" />
+    <Compile Include="MicroMsg\FunctionSwitch.cs" />
+    <Compile Include="MicroMsg\GetUserNameResponse.cs" />
+    <Compile Include="MicroMsg\GmailInfo.cs" />
+    <Compile Include="MicroMsg\GmailList.cs" />
+    <Compile Include="MicroMsg\Host.cs" />
+    <Compile Include="MicroMsg\HostList.cs" />
+    <Compile Include="MicroMsg\InviteFriendOpen.cs" />
+    <Compile Include="MicroMsg\KeyVal.cs" />
+    <Compile Include="MicroMsg\KVStatItem.cs" />
+    <Compile Include="MicroMsg\KVStatOpLog.cs" />
+    <Compile Include="MicroMsg\MemberResp.cs" />
+    <Compile Include="MicroMsg\ModBottleContact.cs" />
+    <Compile Include="MicroMsg\ModBrandSetting.cs" />
+    <Compile Include="MicroMsg\ModChatRoomMember.cs" />
+    <Compile Include="MicroMsg\ModChatRoomNotify.cs" />
+    <Compile Include="MicroMsg\ModChatRoomTopic.cs" />
+    <Compile Include="MicroMsg\ModContact.cs" />
+    <Compile Include="MicroMsg\ModDisturbSetting.cs" />
+    <Compile Include="MicroMsg\ModMicroBlogInfo.cs" />
+    <Compile Include="MicroMsg\ModMsgStatus.cs" />
+    <Compile Include="MicroMsg\ModNotifyStatus.cs" />
+    <Compile Include="MicroMsg\ModUserImg.cs" />
+    <Compile Include="MicroMsg\ModUserInfo.cs" />
+    <Compile Include="MicroMsg\NetworkControl.cs" />
+    <Compile Include="MicroMsg\NewInitRequest.cs" />
+    <Compile Include="MicroMsg\NewInitResponse.cs" />
+    <Compile Include="MicroMsg\NewSyncRequest.cs" />
+    <Compile Include="MicroMsg\NewSyncResponse.cs" />
+    <Compile Include="MicroMsg\OpenQQMicroBlog.cs" />
+    <Compile Include="MicroMsg\PluginKey.cs" />
+    <Compile Include="MicroMsg\PluginKeyList.cs" />
+    <Compile Include="MicroMsg\PSMStat.cs" />
+    <Compile Include="MicroMsg\QContact.cs" />
+    <Compile Include="MicroMsg\QuitChatRoom.cs" />
+    <Compile Include="MicroMsg\Report.cs" />
+    <Compile Include="MicroMsg\RoomInfo.cs" />
+    <Compile Include="MicroMsg\SafeDevice.cs" />
+    <Compile Include="MicroMsg\SafeDeviceList.cs" />
+    <Compile Include="MicroMsg\SKBuiltinBufferT.cs" />
+    <Compile Include="MicroMsg\SKBuiltinBuffer_t.cs" />
+    <Compile Include="MicroMsg\SKBuiltinStringT.cs" />
+    <Compile Include="MicroMsg\SKBuiltinString_t.cs" />
+    <Compile Include="MicroMsg\SnsAction.cs" />
+    <Compile Include="MicroMsg\SnsActionGroup.cs" />
+    <Compile Include="MicroMsg\SnsCommentInfo.cs" />
+    <Compile Include="MicroMsg\SnsGroup.cs" />
+    <Compile Include="MicroMsg\SnsObject.cs" />
+    <Compile Include="MicroMsg\SnsObjectOp.cs" />
+    <Compile Include="MicroMsg\SnsObjectOpDeleteComment.cs" />
+    <Compile Include="MicroMsg\SnsObjectOpRequest.cs" />
+    <Compile Include="MicroMsg\SnsObjectOpResponse.cs" />
+    <Compile Include="MicroMsg\SnsPostResponse.cs" />
+    <Compile Include="MicroMsg\SnsSyncRequest.cs" />
+    <Compile Include="MicroMsg\SnsSyncResponse.cs" />
+    <Compile Include="MicroMsg\SnsUserInfo.cs" />
+    <Compile Include="MicroMsg\SyncKey.cs" />
+    <Compile Include="MicroMsg\TContact.cs" />
+    <Compile Include="MicroMsg\ThemeOpLog.cs" />
+    <Compile Include="MicroMsg\UpdateStatOpLog.cs" />
+    <Compile Include="MicroMsg\UserInfoExt.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="WeChatProtocol.ruleset" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="sendForm.resx">
+      <DependentUpon>sendForm.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

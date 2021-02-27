@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <StartArguments>wxid_n5kf2grjaxm812 extdevnewpwd_CiNBM0wxU05nSXFsbzZjZ01WWDJ0ckhCaXVAcXJ0aWNrZXRfMBJAMWt1c3p6c0Ftd2liczdueEJ2dG9ueVJ0NXpsemUtWjB5TWZxUFdUbFZWUDl2cEdfcXI0V3dIX0NWQnozTnpRSxoYZ1NlQlhzTmpEaGJ5Zkd3SVlocU94blM1 016205cfde4e15567de16e5ee2530da6 http://wx.qlogo.cn/mmhead/ver_1/UsDv6yYiartvSVbbMXW7S9B8R0xO4dic1rv6wphqVaYWo7DIT8jMXZTCkXelaRyDw7RXop8pwsHYojZxNic4Igs1hmrld0J36cSaickSQxDK0ws/0</StartArguments>
+  </PropertyGroup>
+</Project>

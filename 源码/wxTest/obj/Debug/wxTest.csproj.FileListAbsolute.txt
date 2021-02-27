@@ -1,0 +1,103 @@
+D:\wxTest\wxTest\obj\Debug\wxTest.exe
+D:\wxTest\wxTest\obj\Debug\wxTest.pdb
+D:\wxTest\wxTest\obj\Debug\wxTest.csprojResolveAssemblyReference.cache
+D:\wxTest\wxTest\obj\Debug\wxTest.MainForm.resources
+D:\wxTest\wxTest\obj\Debug\wxTest.Properties.Resources.resources
+D:\wxTest\wxTest\obj\Debug\wxTest.csproj.GenerateResource.Cache
+D:\wxTest\wxTest\bin\Debug\wxTest.exe.config
+D:\wxTest\wxTest\bin\Debug\wxTest.exe
+D:\wxTest\wxTest\bin\Debug\wxTest.pdb
+D:\wxTest\wxTest\bin\Debug\Google.ProtocolBuffers.dll
+D:\study\wxTest\wxTest\bin\Debug\wxTest.exe.config
+D:\study\wxTest\wxTest\obj\Debug\wxTest.exe
+D:\study\wxTest\wxTest\obj\Debug\wxTest.pdb
+D:\study\wxTest\wxTest\obj\Debug\wxTest.MainForm.resources
+D:\study\wxTest\wxTest\obj\Debug\wxTest.Properties.Resources.resources
+D:\study\wxTest\wxTest\obj\Debug\wxTest.csproj.GenerateResource.Cache
+D:\study\wxTest\wxTest\bin\Debug\wxTest.exe
+D:\study\wxTest\wxTest\bin\Debug\wxTest.pdb
+D:\study\wxTest\wxTest\bin\Debug\Google.ProtocolBuffers.dll
+D:\study\wxTest\wxTest\obj\Debug\wxTest.csprojResolveAssemblyReference.cache
+D:\study\wxTest\wxTest\obj\Debug\wxTest.Form1.resources
+D:\study\wxTest6.2\wxTest\bin\Debug\wxTest.exe.config
+D:\study\wxTest6.2\wxTest\obj\Debug\wxTest.exe
+D:\study\wxTest6.2\wxTest\obj\Debug\wxTest.pdb
+D:\study\wxTest6.2\wxTest\bin\Debug\wxTest.exe
+D:\study\wxTest6.2\wxTest\bin\Debug\wxTest.pdb
+D:\study\wxTest6.2\wxTest\bin\Debug\Google.ProtocolBuffers.dll
+D:\study\wxTest6.2\wxTest\obj\Debug\wxTest.Form1.resources
+D:\study\wxTest6.2\wxTest\obj\Debug\wxTest.MainForm.resources
+D:\study\wxTest6.2\wxTest\obj\Debug\wxTest.Properties.Resources.resources
+D:\study\wxTest6.2\wxTest\obj\Debug\wxTest.csproj.GenerateResource.Cache
+D:\study\wxTest6.2\wxTest\obj\Debug\wxTest.csprojResolveAssemblyReference.cache
+D:\study\wxTest6.2-tcp\wxTest\bin\Debug\wxTest.exe.config
+D:\study\wxTest6.2-tcp\wxTest\obj\Debug\wxTest.exe
+D:\study\wxTest6.2-tcp\wxTest\obj\Debug\wxTest.pdb
+D:\study\wxTest6.2-tcp\wxTest\obj\Debug\wxTest.csprojResolveAssemblyReference.cache
+D:\study\wxTest6.2-tcp\wxTest\obj\Debug\wxTest.Form1.resources
+D:\study\wxTest6.2-tcp\wxTest\obj\Debug\wxTest.MainForm.resources
+D:\study\wxTest6.2-tcp\wxTest\obj\Debug\wxTest.Properties.Resources.resources
+D:\study\wxTest6.2-tcp\wxTest\obj\Debug\wxTest.csproj.GenerateResource.Cache
+D:\study\wxTest6.2-tcp\wxTest\bin\Debug\wxTest.exe
+D:\study\wxTest6.2-tcp\wxTest\bin\Debug\wxTest.pdb
+D:\study\wxTest6.2-tcp\wxTest\bin\Debug\Google.ProtocolBuffers.dll
+C:\ProgramData\www\NEW\wxTest6.2-tcp 21\wxTest6.2-tcp\wxTest\bin\Debug\wxTest.exe.config
+C:\ProgramData\www\NEW\wxTest6.2-tcp 21\wxTest6.2-tcp\wxTest\bin\Debug\wxTest.exe
+C:\ProgramData\www\NEW\wxTest6.2-tcp 21\wxTest6.2-tcp\wxTest\bin\Debug\wxTest.pdb
+C:\ProgramData\www\NEW\wxTest6.2-tcp 21\wxTest6.2-tcp\wxTest\obj\Debug\wxTest.Form1.resources
+C:\ProgramData\www\NEW\wxTest6.2-tcp 21\wxTest6.2-tcp\wxTest\obj\Debug\wxTest.MainForm.resources
+C:\ProgramData\www\NEW\wxTest6.2-tcp 21\wxTest6.2-tcp\wxTest\obj\Debug\wxTest.Properties.Resources.resources
+C:\ProgramData\www\NEW\wxTest6.2-tcp 21\wxTest6.2-tcp\wxTest\obj\Debug\wxTest.csproj.GenerateResource.Cache
+C:\ProgramData\www\NEW\wxTest6.2-tcp 21\wxTest6.2-tcp\wxTest\obj\Debug\wxTest.exe
+C:\ProgramData\www\NEW\wxTest6.2-tcp 21\wxTest6.2-tcp\wxTest\obj\Debug\wxTest.pdb
+C:\ProgramData\www\NEW\wxTest6.2-tcp 21\wxTest6.2-tcp\wxTest\obj\Debug\wxTest.csprojResolveAssemblyReference.cache
+G:\工作\出zzh\wxTest\wxTest\bin\Debug\wxTest.exe.config
+G:\工作\出zzh\wxTest\wxTest\obj\Debug\wxTest.exe
+G:\工作\出zzh\wxTest\wxTest\obj\Debug\wxTest.pdb
+G:\工作\出zzh\wxTest\wxTest\bin\Debug\wxTest.exe
+G:\工作\出zzh\wxTest\wxTest\bin\Debug\wxTest.pdb
+G:\工作\出zzh\wxTest\wxTest\obj\Debug\wxTest.MainForm.resources
+G:\工作\出zzh\wxTest\wxTest\obj\Debug\wxTest.Properties.Resources.resources
+G:\工作\出zzh\wxTest\wxTest\obj\Debug\wxTest.csproj.GenerateResource.Cache
+D:\wxTest - 5.3 附近人等\wxTest\bin\Debug\wxTest.exe.config
+D:\wxTest - 5.3 附近人等\wxTest\bin\Debug\wxTest.exe
+D:\wxTest - 5.3 附近人等\wxTest\bin\Debug\wxTest.pdb
+D:\wxTest - 5.3 附近人等\wxTest\obj\Debug\wxTest.csprojResolveAssemblyReference.cache
+D:\wxTest - 5.3 附近人等\wxTest\obj\Debug\wxTest.MainForm.resources
+D:\wxTest - 5.3 附近人等\wxTest\obj\Debug\wxTest.Properties.Resources.resources
+D:\wxTest - 5.3 附近人等\wxTest\obj\Debug\wxTest.csproj.GenerateResource.Cache
+D:\wxTest - 5.3 附近人等\wxTest\obj\Debug\wxTest.exe
+D:\wxTest - 5.3 附近人等\wxTest\obj\Debug\wxTest.pdb
+C:\Users\459，499\Desktop\新建文件夹\wxTest - 5.3 附近人等\wxTest - 5.3 附近人等\wxTest\bin\Debug\wxTest.exe.config
+C:\Users\459，499\Desktop\新建文件夹\wxTest - 5.3 附近人等\wxTest - 5.3 附近人等\wxTest\bin\Debug\wxTest.exe
+C:\Users\459，499\Desktop\新建文件夹\wxTest - 5.3 附近人等\wxTest - 5.3 附近人等\wxTest\bin\Debug\wxTest.pdb
+C:\Users\459，499\Desktop\新建文件夹\wxTest - 5.3 附近人等\wxTest - 5.3 附近人等\wxTest\obj\Debug\wxTest.MainForm.resources
+C:\Users\459，499\Desktop\新建文件夹\wxTest - 5.3 附近人等\wxTest - 5.3 附近人等\wxTest\obj\Debug\wxTest.Properties.Resources.resources
+C:\Users\459，499\Desktop\新建文件夹\wxTest - 5.3 附近人等\wxTest - 5.3 附近人等\wxTest\obj\Debug\wxTest.csproj.GenerateResource.cache
+C:\Users\459，499\Desktop\新建文件夹\wxTest - 5.3 附近人等\wxTest - 5.3 附近人等\wxTest\obj\Debug\wxTest.csproj.CoreCompileInputs.cache
+C:\Users\459，499\Desktop\新建文件夹\wxTest - 5.3 附近人等\wxTest - 5.3 附近人等\wxTest\obj\Debug\wxTest.csproj.CopyComplete
+C:\Users\459，499\Desktop\新建文件夹\wxTest - 5.3 附近人等\wxTest - 5.3 附近人等\wxTest\obj\Debug\wxTest.exe
+C:\Users\459，499\Desktop\新建文件夹\wxTest - 5.3 附近人等\wxTest - 5.3 附近人等\wxTest\obj\Debug\wxTest.pdb
+C:\Users\459，499\Desktop\新建文件夹\wxTest - 5.3 附近人等\wxTest - 5.3 附近人等\wxTest\obj\Debug\wxTest.csprojAssemblyReference.cache
+D:\WeChat\android协议\wxTest - 5.3 附近人等\wxTest\bin\Debug\wxTest.exe.config
+D:\WeChat\android协议\wxTest - 5.3 附近人等\wxTest\bin\Debug\wxTest.exe
+D:\WeChat\android协议\wxTest - 5.3 附近人等\wxTest\bin\Debug\wxTest.pdb
+D:\WeChat\android协议\wxTest - 5.3 附近人等\wxTest\obj\Debug\wxTest.csprojResolveAssemblyReference.cache
+D:\WeChat\android协议\wxTest - 5.3 附近人等\wxTest\obj\Debug\wxTest.MainForm.resources
+D:\WeChat\android协议\wxTest - 5.3 附近人等\wxTest\obj\Debug\wxTest.Properties.Resources.resources
+D:\WeChat\android协议\wxTest - 5.3 附近人等\wxTest\obj\Debug\wxTest.csproj.GenerateResource.cache
+D:\WeChat\android协议\wxTest - 5.3 附近人等\wxTest\obj\Debug\wxTest.csproj.CoreCompileInputs.cache
+D:\WeChat\android协议\wxTest - 5.3 附近人等\wxTest\obj\Debug\wxTest.csproj.CopyComplete
+D:\WeChat\android协议\wxTest - 5.3 附近人等\wxTest\obj\Debug\wxTest.exe
+D:\WeChat\android协议\wxTest - 5.3 附近人等\wxTest\obj\Debug\wxTest.pdb
+C:\Users\78749\Documents\Tencent Files\814052729\FileRecv\wxTest\wxTest\bin\Debug\wxTest.exe.config
+C:\Users\78749\Documents\Tencent Files\814052729\FileRecv\wxTest\wxTest\bin\Debug\wxTest.exe
+C:\Users\78749\Documents\Tencent Files\814052729\FileRecv\wxTest\wxTest\bin\Debug\wxTest.pdb
+C:\Users\78749\Documents\Tencent Files\814052729\FileRecv\wxTest\wxTest\obj\Debug\wxTest.csprojAssemblyReference.cache
+C:\Users\78749\Documents\Tencent Files\814052729\FileRecv\wxTest\wxTest\obj\Debug\wxTest.MainForm.resources
+C:\Users\78749\Documents\Tencent Files\814052729\FileRecv\wxTest\wxTest\obj\Debug\wxTest.Properties.Resources.resources
+C:\Users\78749\Documents\Tencent Files\814052729\FileRecv\wxTest\wxTest\obj\Debug\wxTest.csproj.GenerateResource.cache
+C:\Users\78749\Documents\Tencent Files\814052729\FileRecv\wxTest\wxTest\obj\Debug\wxTest.csproj.CoreCompileInputs.cache
+C:\Users\78749\Documents\Tencent Files\814052729\FileRecv\wxTest\wxTest\obj\Debug\wxTest.csproj.CopyComplete
+C:\Users\78749\Documents\Tencent Files\814052729\FileRecv\wxTest\wxTest\obj\Debug\wxTest.exe
+C:\Users\78749\Documents\Tencent Files\814052729\FileRecv\wxTest\wxTest\obj\Debug\wxTest.pdb

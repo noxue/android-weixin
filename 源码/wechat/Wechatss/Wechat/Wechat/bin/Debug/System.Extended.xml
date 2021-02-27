@@ -1,0 +1,2143 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>System.Extended</name>
+    </assembly>
+    <members>
+        <member name="T:System.ArrayExtension">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:System.ArrayExtension.Resize``1(``0[],System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="array"></param>
+            <param name="size"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.ArrayExtension.Copy``1(``0[])">
+            <summary>
+            
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="array"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.ArrayExtension.Copy``1(``0[],System.Int32)">
+            <summary>
+            
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="array"></param>
+            <param name="length"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.ArrayExtension.Copy``1(``0[],System.Int64)">
+            <summary>
+            
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="array"></param>
+            <param name="length"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.ArrayExtension.Copy``1(``0[],System.Int32,System.Int32)">
+            <summary>
+            
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="array"></param>
+            <param name="index"></param>
+            <param name="length"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.ArrayExtension.Copy``1(``0[],System.Int64,System.Int64)">
+            <summary>
+            
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="array"></param>
+            <param name="index"></param>
+            <param name="length"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.ArrayExtension.ReverseCopy``1(``0[])">
+            <summary>
+            
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="array"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.ArrayExtension.ReverseCopy``1(``0[],System.Int32)">
+            <summary>
+            
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="array"></param>
+            <param name="length"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.ArrayExtension.ReverseCopy``1(``0[],System.Int64)">
+            <summary>
+            
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="array"></param>
+            <param name="length"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.ArrayExtension.ReverseCopy``1(``0[],System.Int32,System.Int32)">
+            <summary>
+            
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="array"></param>
+            <param name="index"></param>
+            <param name="length"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.ArrayExtension.ReverseCopy``1(``0[],System.Int64,System.Int64)">
+            <summary>
+            
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="array"></param>
+            <param name="index"></param>
+            <param name="length"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.ArrayExtension.Reverse``1(``0[])">
+            <summary>
+            
+            </summary>
+            <param name="array"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.ArrayExtension.Reverse``1(``0[],System.Int32,System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="array"></param>
+            <param name="index"></param>
+            <param name="count"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.ArrayExtension.IndexOf``1(``0[],``0[])">
+            <summary>
+            
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="array"></param>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.ArrayExtension.IndexOf``1(``0[],``0[],System.Int32[]@)">
+            <summary>
+            
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="array"></param>
+            <param name="value"></param>
+            <param name="next"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.ArrayExtension.IndexOf``1(``0[],``0[],System.Int32)">
+            <summary>
+            
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="array"></param>
+            <param name="value"></param>
+            <param name="index"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.ArrayExtension.IndexOf``1(``0[],``0[],System.Int32,System.Int32[]@)">
+            <summary>
+            
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="array"></param>
+            <param name="value"></param>
+            <param name="index"></param>
+            <param name="next"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.ArrayExtension.IndexOf``1(``0[],``0[],System.Int32,System.Int32)">
+            <summary>
+            
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="array"></param>
+            <param name="value"></param>
+            <param name="index"></param>
+            <param name="count"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.ArrayExtension.IndexOf``1(``0[],``0[],System.Int32,System.Int32,System.Int32[]@)">
+            <summary>
+            
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="array"></param>
+            <param name="value"></param>
+            <param name="index"></param>
+            <param name="count"></param>
+            <param name="next"></param>
+            <returns></returns>
+        </member>
+        <member name="T:System.ByteArrayExtension">
+            <summary>
+            字节数组扩展类
+            </summary>
+        </member>
+        <member name="M:System.ByteArrayExtension.GetInt16(System.Byte[],System.Endian)">
+            <summary>
+            返回由字节数组中前两个字节转换来的16位有符号整数
+            </summary>
+            <param name="bytes"></param>
+            <param name="endian">字节序</param>
+            <returns></returns>
+        </member>
+        <member name="M:System.ByteArrayExtension.GetInt16(System.Byte[],System.Endian,System.Int32)">
+            <summary>
+            返回由字节数组中指定位置的两个字节转换来的16位有符号整数
+            </summary>
+            <param name="bytes"></param>
+            <param name="endian">字节序</param>
+            <param name="index">偏移位置</param>
+            <returns></returns>
+        </member>
+        <member name="M:System.ByteArrayExtension.GetUInt16(System.Byte[],System.Endian)">
+            <summary>
+            返回由字节数组中前两个字节转换来的32位无符号整数
+            </summary>
+            <param name="bytes"></param>
+            <param name="endian">字节序</param>
+            <returns></returns>
+        </member>
+        <member name="M:System.ByteArrayExtension.GetUInt16(System.Byte[],System.Endian,System.Int32)">
+            <summary>
+            返回由字节数组中指定位置的两个字节转换来的32位无符号整数
+            </summary>
+            <param name="bytes"></param>
+            <param name="endian">字节序</param>
+            <param name="index">偏移位置</param>
+            <returns></returns>
+        </member>
+        <member name="M:System.ByteArrayExtension.GetInt32(System.Byte[],System.Endian)">
+            <summary>
+            返回由字节数组中前四个字节转换来的32位有符号整数
+            </summary>
+            <param name="bytes"></param>
+            <param name="endian">字节序</param>
+            <returns></returns>
+        </member>
+        <member name="M:System.ByteArrayExtension.GetInt32(System.Byte[],System.Endian,System.Int32)">
+            <summary>
+            返回由字节数组中指定位置的四个字节转换来的32位有符号整数
+            </summary>
+            <param name="bytes"></param>
+            <param name="endian">字节序</param>
+            <param name="index">偏移位置</param>
+            <returns></returns>
+        </member>
+        <member name="M:System.ByteArrayExtension.GetUInt32(System.Byte[],System.Endian)">
+            <summary>
+            返回由字节数组中前四个字节转换来的32位无符号整数
+            </summary>
+            <param name="bytes"></param>
+            <param name="endian">字节序</param>
+            <returns></returns>
+        </member>
+        <member name="M:System.ByteArrayExtension.GetUInt32(System.Byte[],System.Endian,System.Int32)">
+            <summary>
+            返回由字节数组中指定位置的四个字节转换来的32位无符号整数
+            </summary>
+            <param name="bytes"></param>
+            <param name="endian">字节序</param>
+            <param name="index">偏移位置</param>
+            <returns></returns>
+        </member>
+        <member name="M:System.ByteArrayExtension.GetInt64(System.Byte[],System.Endian)">
+            <summary>
+            返回由字节数组中前四个字节转换来的64位有符号整数
+            </summary>
+            <param name="bytes"></param>
+            <param name="endian">字节序</param>
+            <returns></returns>
+        </member>
+        <member name="M:System.ByteArrayExtension.GetInt64(System.Byte[],System.Endian,System.Int32)">
+            <summary>
+            返回由字节数组中指定位置的四个字节转换来的64位有符号整数
+            </summary>
+            <param name="bytes"></param>
+            <param name="endian">字节序</param>
+            <param name="index">偏移位置</param>
+            <returns></returns>
+        </member>
+        <member name="M:System.ByteArrayExtension.GetUInt64(System.Byte[],System.Endian)">
+            <summary>
+            返回由字节数组中前四个字节转换来的64位有符号整数
+            </summary>
+            <param name="bytes"></param>
+            <param name="endian">字节序</param>
+            <returns></returns>
+        </member>
+        <member name="M:System.ByteArrayExtension.GetUInt64(System.Byte[],System.Endian,System.Int32)">
+            <summary>
+            返回由字节数组中指定位置的四个字节转换来的64位有符号整数
+            </summary>
+            <param name="bytes"></param>
+            <param name="endian">字节序</param>
+            <param name="index">偏移位置</param>
+            <returns></returns>
+        </member>
+        <member name="M:System.ByteArrayExtension.ToString(System.Byte[],System.Int32,System.Int32)">
+            <summary>
+            将字节数组转换为指定进制字符串
+            </summary>
+            <param name="bytes"></param>
+            <param name="radix">数字的基数，必须为2 ~ 36</param>
+            <param name="width"></param>
+            <returns></returns>
+        </member>
+        <member name="T:System.ByteExtension">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:System.ByteExtension.ToString(System.Byte,System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="value"></param>
+            <param name="radix"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.ByteExtension.Reverse(System.Byte)">
+            <summary>
+            
+            </summary>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="T:System.Collections.Generic.DictionaryExtension">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:System.Collections.Generic.DictionaryExtension.GetValueOrDefault``2(System.Collections.Generic.IDictionary{``0,``1},``0)">
+            <summary>
+            
+            </summary>
+            <typeparam name="T"></typeparam>
+            <typeparam name="V"></typeparam>
+            <param name="dictionary"></param>
+            <param name="key"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.Collections.Generic.DictionaryExtension.GetValueOrDefault``2(System.Collections.Generic.IDictionary{``0,``1},``0,``1)">
+            <summary>
+            
+            </summary>
+            <typeparam name="T"></typeparam>
+            <typeparam name="V"></typeparam>
+            <param name="dictionary"></param>
+            <param name="key"></param>
+            <param name="default"></param>
+            <returns></returns>
+        </member>
+        <member name="T:System.Drawing.BitmapExtension">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:System.Drawing.BitmapExtension.Gray(System.Drawing.Bitmap)">
+            <summary>
+            图像灰度化
+            </summary>
+            <param name="bitmap"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.Drawing.BitmapExtension.Binarizate(System.Drawing.Bitmap,System.Byte)">
+            <summary>
+            图像二值化
+            </summary>
+            <param name="bitmap"></param>
+            <param name="threshold">阈值</param>
+            <returns></returns>
+        </member>
+        <member name="M:System.Drawing.BitmapExtension.Invert(System.Drawing.Bitmap)">
+            <summary>
+            图像反转
+            </summary>
+            <param name="bitmap"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.Drawing.BitmapExtension.Trim(System.Drawing.Bitmap,System.Drawing.Color,System.Drawing.BitmapTrimMode)">
+            <summary>
+            图像裁切
+            </summary>
+            <param name="bitmap"></param>
+            <param name="color"></param>
+            <param name="mode"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.Drawing.BitmapExtension.Reformat(System.Drawing.Bitmap,System.Drawing.Imaging.PixelFormat)">
+            <summary>
+            
+            </summary>
+            <param name="bitmap"></param>
+            <param name="format"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.Drawing.BitmapExtension.ToByteArray(System.Drawing.Bitmap,System.Drawing.Imaging.ImageFormat)">
+            <summary>
+            
+            </summary>
+            <param name="bitmap"></param>
+            <param name="format"></param>
+            <returns></returns>
+        </member>
+        <member name="T:System.Drawing.BitmapTrimMode">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:System.Drawing.BitmapTrimMode.Top">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:System.Drawing.BitmapTrimMode.Right">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:System.Drawing.BitmapTrimMode.Bottom">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:System.Drawing.BitmapTrimMode.Left">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:System.Drawing.BitmapTrimMode.All">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:System.Drawing.ImageExtension">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:System.Drawing.ImageExtension.GetBounds(System.Drawing.Image)">
+            <summary>
+            获取图像的界限（以像素为单位）
+            </summary>
+            <param name="image"></param>
+            <returns></returns>
+        </member>
+        <member name="T:System.Drawing.PointArrayExtension">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:System.Drawing.PointArrayExtension.GetBounds(System.Drawing.Point[])">
+            <summary>
+            
+            </summary>
+            <param name="points"></param>
+            <returns></returns>
+        </member>
+        <member name="T:System.IO.Compression.Deflate">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:System.IO.Compression.Deflate.DefaultBufferSize">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:System.IO.Compression.Deflate.Compress(System.Byte[])">
+            <summary>
+            
+            </summary>
+            <param name="bytes"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.IO.Compression.Deflate.Decompress(System.Byte[])">
+            <summary>
+            
+            </summary>
+            <param name="bytes"></param>
+            <returns></returns>
+        </member>
+        <member name="T:System.IO.Compression.GZip">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:System.IO.Compression.GZip.DefaultBufferSize">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:System.IO.Compression.GZip.Compress(System.Byte[])">
+            <summary>
+            
+            </summary>
+            <param name="bytes"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.IO.Compression.GZip.Decompress(System.Byte[])">
+            <summary>
+            
+            </summary>
+            <param name="bytes"></param>
+            <returns></returns>
+        </member>
+        <member name="T:System.Security.Cryptography.RSAExtension">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:System.Security.Cryptography.RSAExtension.FromPKCS8PrivateKey(System.Security.Cryptography.RSA,System.Byte[])">
+            <summary>
+            
+            </summary>
+            <param name="rsa"></param>
+            <param name="key"></param>
+        </member>
+        <member name="M:System.Security.Cryptography.RSAExtension.FromPKCS1PrivateKey(System.Security.Cryptography.RSA,System.Byte[])">
+            <summary>
+            
+            </summary>
+            <param name="rsa"></param>
+            <param name="key"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.Security.Cryptography.RSAExtension.FromX509PublicKey(System.Security.Cryptography.RSA,System.Byte[])">
+            <summary>
+            
+            </summary>
+            <param name="rsa"></param>
+            <param name="key"></param>
+            <returns></returns>
+        </member>
+        <member name="T:System.UnixTimestamp">
+            <summary>
+            Unix 时间戳
+            </summary>
+        </member>
+        <member name="F:System.UnixTimestamp.Origin">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:System.UnixTimestamp.Now">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:System.UnixTimestamp.FromDateTime(System.DateTime)">
+            <summary>
+            将日期转换为毫秒数
+            </summary>
+            <param name="time"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.UnixTimestamp.ToDateTime(System.TimeSpan)">
+            <summary>
+            
+            </summary>
+            <param name="span"></param>
+            <returns></returns>
+        </member>
+        <member name="T:System.Int16Extension">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:System.Int16Extension.ToString(System.Int16,System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="value"></param>
+            <param name="radix"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.Int16Extension.ToByteArray(System.Int16,System.Endian)">
+            <summary>
+            
+            </summary>
+            <param name="value"></param>
+            <param name="endian"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.Int16Extension.Reverse(System.Int16)">
+            <summary>
+            
+            </summary>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="T:System.Int64Extension">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:System.Int64Extension.ToString(System.Int64,System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="value"></param>
+            <param name="radix"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.Int64Extension.ToByteArray(System.Int64,System.Endian)">
+            <summary>
+            
+            </summary>
+            <param name="value"></param>
+            <param name="endian"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.Int64Extension.Reverse(System.Int64)">
+            <summary>
+            
+            </summary>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="T:System.Endian">
+            <summary>
+            字节序
+            </summary>
+        </member>
+        <member name="F:System.Endian.Little">
+            <summary>
+            将低序字节存储在起始地址
+            </summary>
+        </member>
+        <member name="F:System.Endian.Big">
+            <summary>
+            将高序字节存储在起始地址
+            </summary>
+        </member>
+        <member name="T:System.Int32Extension">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:System.Int32Extension.ToString(System.Int32,System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="value"></param>
+            <param name="radix"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.Int32Extension.ToByteArray(System.Int32,System.Endian)">
+            <summary>
+            
+            </summary>
+            <param name="value"></param>
+            <param name="endian"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.Int32Extension.Reverse(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="T:System.IO.Ports.SerialPortExtension">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:System.IO.Ports.SerialPortExtension.Write(System.IO.Ports.SerialPort,System.Byte[])">
+            <summary>
+            
+            </summary>
+            <param name="port"></param>
+            <param name="bytes"></param>
+        </member>
+        <member name="M:System.IO.Ports.SerialPortExtension.Write(System.IO.Ports.SerialPort,System.Char[])">
+            <summary>
+            
+            </summary>
+            <param name="port"></param>
+            <param name="chars"></param>
+        </member>
+        <member name="M:System.IO.Ports.SerialPortExtension.ReadBytes(System.IO.Ports.SerialPort,System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="port"></param>
+            <param name="count"></param>
+            <returns></returns>
+        </member>
+        <member name="T:System.IO.StreamExtension">
+            <summary>
+            System.IO.Stream 扩展类
+            </summary>
+        </member>
+        <member name="M:System.IO.StreamExtension.ReadBoolean(System.IO.Stream)">
+            <summary>
+            
+            </summary>
+            <param name="stream"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.IO.StreamExtension.ReadChar(System.IO.Stream,System.Endian)">
+            <summary>
+            
+            </summary>
+            <param name="stream"></param>
+            <param name="endian"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.IO.StreamExtension.ReadInt16(System.IO.Stream,System.Endian)">
+            <summary>
+            
+            </summary>
+            <param name="stream"></param>
+            <param name="endian"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.IO.StreamExtension.ReadUInt16(System.IO.Stream,System.Endian)">
+            <summary>
+            
+            </summary>
+            <param name="stream"></param>
+            <param name="endian"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.IO.StreamExtension.ReadInt32(System.IO.Stream,System.Endian)">
+            <summary>
+            
+            </summary>
+            <param name="stream"></param>
+            <param name="endian"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.IO.StreamExtension.ReadUInt32(System.IO.Stream,System.Endian)">
+            <summary>
+            
+            </summary>
+            <param name="stream"></param>
+            <param name="endian"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.IO.StreamExtension.ReadInt64(System.IO.Stream,System.Endian)">
+            <summary>
+            
+            </summary>
+            <param name="stream"></param>
+            <param name="endian"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.IO.StreamExtension.ReadUInt64(System.IO.Stream,System.Endian)">
+            <summary>
+            
+            </summary>
+            <param name="stream"></param>
+            <param name="endian"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.IO.StreamExtension.ReadBytes(System.IO.Stream,System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="stream"></param>
+            <param name="count"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.IO.StreamExtension.ReadSingle(System.IO.Stream,System.Endian)">
+            <summary>
+            
+            </summary>
+            <param name="stream"></param>
+            <param name="endian"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.IO.StreamExtension.ReadDouble(System.IO.Stream,System.Endian)">
+            <summary>
+            
+            </summary>
+            <param name="stream"></param>
+            <param name="endian"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.IO.StreamExtension.Write(System.IO.Stream,System.Boolean)">
+            <summary>
+            
+            </summary>
+            <param name="stream"></param>
+            <param name="value"></param>
+        </member>
+        <member name="M:System.IO.StreamExtension.Write(System.IO.Stream,System.Byte)">
+            <summary>
+            
+            </summary>
+            <param name="stream"></param>
+            <param name="value"></param>
+        </member>
+        <member name="M:System.IO.StreamExtension.Write(System.IO.Stream,System.Char,System.Endian)">
+            <summary>
+            
+            </summary>
+            <param name="stream"></param>
+            <param name="value"></param>
+            <param name="endian"></param>
+        </member>
+        <member name="M:System.IO.StreamExtension.Write(System.IO.Stream,System.Int16,System.Endian)">
+            <summary>
+            
+            </summary>
+            <param name="stream"></param>
+            <param name="value"></param>
+            <param name="endian"></param>
+        </member>
+        <member name="M:System.IO.StreamExtension.Write(System.IO.Stream,System.UInt16,System.Endian)">
+            <summary>
+            
+            </summary>
+            <param name="stream"></param>
+            <param name="value"></param>
+            <param name="endian"></param>
+        </member>
+        <member name="M:System.IO.StreamExtension.Write(System.IO.Stream,System.Int32,System.Endian)">
+            <summary>
+            
+            </summary>
+            <param name="stream"></param>
+            <param name="value"></param>
+            <param name="endian"></param>
+        </member>
+        <member name="M:System.IO.StreamExtension.Write(System.IO.Stream,System.UInt32,System.Endian)">
+            <summary>
+            
+            </summary>
+            <param name="stream"></param>
+            <param name="value"></param>
+            <param name="endian"></param>
+        </member>
+        <member name="M:System.IO.StreamExtension.Write(System.IO.Stream,System.Int64,System.Endian)">
+            <summary>
+            
+            </summary>
+            <param name="stream"></param>
+            <param name="value"></param>
+            <param name="endian"></param>
+        </member>
+        <member name="M:System.IO.StreamExtension.Write(System.IO.Stream,System.UInt64,System.Endian)">
+            <summary>
+            
+            </summary>
+            <param name="stream"></param>
+            <param name="value"></param>
+            <param name="endian"></param>
+        </member>
+        <member name="M:System.IO.StreamExtension.Write(System.IO.Stream,System.Single,System.Endian)">
+            <summary>
+            
+            </summary>
+            <param name="stream"></param>
+            <param name="value"></param>
+            <param name="endian"></param>
+        </member>
+        <member name="M:System.IO.StreamExtension.Write(System.IO.Stream,System.Double,System.Endian)">
+            <summary>
+            
+            </summary>
+            <param name="stream"></param>
+            <param name="value"></param>
+            <param name="endian"></param>
+        </member>
+        <member name="M:System.IO.StreamExtension.Write(System.IO.Stream,System.Byte[])">
+            <summary>
+            
+            </summary>
+            <param name="stream"></param>
+            <param name="bytes"></param>
+        </member>
+        <member name="T:System.Linq.EnumerableExtension">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:System.Linq.EnumerableExtension.ToHashSet``1(System.Collections.Generic.IEnumerable{``0})">
+            <summary>
+            
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="enumeration"></param>
+            <returns></returns>
+        </member>
+        <member name="T:System.Net.HttpWebResponseExtension">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:System.Net.HttpWebResponseExtension.DefaultBufferSize">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:System.Net.HttpWebResponseExtension.ReadBytes(System.Net.HttpWebResponse)">
+            <summary>
+            
+            </summary>
+            <param name="response"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.Net.HttpWebResponseExtension.ReadString(System.Net.HttpWebResponse)">
+            <summary>
+            
+            </summary>
+            <param name="response"></param>
+            <returns></returns>
+        </member>
+        <member name="T:System.Net.SimpleNetworkTimeClient">
+            <summary>
+            Sntp Client ( RFC 2030 )
+            </summary>
+        </member>
+        <member name="M:System.Net.SimpleNetworkTimeClient.Synchronize(System.Net.IPEndPoint,System.Int32)">
+            <summary>
+            Connect to the time server
+            </summary>
+        </member>
+        <member name="P:System.Net.SimpleNetworkTimeClient.Leap">
+            <summary>
+            闰秒标识器
+            </summary>
+        </member>
+        <member name="P:System.Net.SimpleNetworkTimeClient.Version">
+            <summary>
+            版本号
+            </summary>
+        </member>
+        <member name="P:System.Net.SimpleNetworkTimeClient.Mode">
+            <summary>
+            模式
+            </summary>
+        </member>
+        <member name="P:System.Net.SimpleNetworkTimeClient.Stratum">
+            <summary>
+            层
+            </summary>
+        </member>
+        <member name="P:System.Net.SimpleNetworkTimeClient.Poll">
+            <summary>
+            测试间隔
+            </summary>
+        </member>
+        <member name="P:System.Net.SimpleNetworkTimeClient.Precision">
+            <summary>
+            根延迟
+            </summary>
+        </member>
+        <member name="P:System.Net.SimpleNetworkTimeClient.Delay">
+            <summary>
+            Root Delay (By Second)
+            </summary>
+        </member>
+        <member name="P:System.Net.SimpleNetworkTimeClient.Dispersion">
+            <summary>
+            根离散
+            </summary>
+        </member>
+        <member name="P:System.Net.SimpleNetworkTimeClient.ReferenceId">
+            <summary>
+            参考时钟标识符
+            </summary>
+        </member>
+        <member name="P:System.Net.SimpleNetworkTimeClient.ReferenceTime">
+            <summary>
+            本地时钟被修改的最新时间
+            </summary>
+        </member>
+        <member name="P:System.Net.SimpleNetworkTimeClient.ServerSendTime">
+            <summary>
+            服务器发送时间
+            </summary>
+        </member>
+        <member name="P:System.Net.SimpleNetworkTimeClient.ServerReceiveTime">
+            <summary>
+            服务器接收时间
+            </summary>
+        </member>
+        <member name="P:System.Net.SimpleNetworkTimeClient.ClientReceiveTime">
+            <summary>
+            客户端接收时间
+            </summary>
+        </member>
+        <member name="P:System.Net.SimpleNetworkTimeClient.ClientSendTime">
+            <summary>
+            客户端发送时间
+            </summary>
+        </member>
+        <member name="T:System.Net.SimpleNetworkTimeLeap">
+            <summary>
+            Simple Network Time Protocol Leap
+            </summary>
+        </member>
+        <member name="F:System.Net.SimpleNetworkTimeLeap.NoWarning">
+            <summary>
+            00 - No warning
+            </summary>
+        </member>
+        <member name="F:System.Net.SimpleNetworkTimeLeap.LastMinute61">
+            <summary>
+            01 - Last minute has 61 seconds
+            </summary>
+        </member>
+        <member name="F:System.Net.SimpleNetworkTimeLeap.LastMinute59">
+            <summary>
+            10 - Last minute has 59 seconds
+            </summary>
+        </member>
+        <member name="F:System.Net.SimpleNetworkTimeLeap.Alarm">
+            <summary>
+            11 - Alarm condition (clock not synchronized)
+            </summary>
+        </member>
+        <member name="T:System.Net.SimpleNetworkTimeMode">
+            <summary>
+            Simple Network Time Protocol Mode
+            </summary>
+        </member>
+        <member name="F:System.Net.SimpleNetworkTimeMode.Reserved">
+            <summary>
+            0 - Reserved
+            </summary>
+        </member>
+        <member name="F:System.Net.SimpleNetworkTimeMode.SymmetricActive">
+            <summary>
+            1 - Symmetric active
+            </summary>
+        </member>
+        <member name="F:System.Net.SimpleNetworkTimeMode.SymmetricPassive">
+            <summary>
+            2 - Symmetric pasive
+            </summary>
+        </member>
+        <member name="F:System.Net.SimpleNetworkTimeMode.Client">
+            <summary>
+            3 - Client
+            </summary>
+        </member>
+        <member name="F:System.Net.SimpleNetworkTimeMode.Server">
+            <summary>
+            4 - Server
+            </summary>
+        </member>
+        <member name="F:System.Net.SimpleNetworkTimeMode.Broadcast">
+            <summary>
+            5 - Broadcast
+            </summary>
+        </member>
+        <member name="F:System.Net.SimpleNetworkTimeMode.SntpReserved">
+            <summary>
+            6 - Reserved for Sntp control message
+            </summary>
+        </member>
+        <member name="F:System.Net.SimpleNetworkTimeMode.PrivateReserved">
+            <summary>
+            7 - Reserved for private use
+            </summary>
+        </member>
+        <member name="T:System.Net.SimpleNetworkTimeStratum">
+            <summary>
+            Simple Network Time Protocol Stratum
+            </summary>
+        </member>
+        <member name="F:System.Net.SimpleNetworkTimeStratum.Unspecified">
+            <summary>
+            0 - unspecified or unavailable
+            </summary>
+        </member>
+        <member name="F:System.Net.SimpleNetworkTimeStratum.PrimaryReference">
+            <summary>
+            1 - primary reference (e.g. radio-clock)
+            </summary>
+        </member>
+        <member name="F:System.Net.SimpleNetworkTimeStratum.SecondaryReference">
+            <summary>
+            2-15 - secondary reference (via NTP or Sntp)
+            </summary>
+        </member>
+        <member name="F:System.Net.SimpleNetworkTimeStratum.Reserved">
+            <summary>
+            16-255 - reserved
+            </summary>
+        </member>
+        <member name="T:System.Net.HttpWebRequestExtension">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:System.Net.HttpWebRequestExtension.DefaultAccept">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:System.Net.HttpWebRequestExtension.DefaultAcceptEncoding">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:System.Net.HttpWebRequestExtension.DefaultAcceptLanguage">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:System.Net.HttpWebRequestExtension.DefaultAcceptCharset">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:System.Net.HttpWebRequestExtension.DefaultUserAgent">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:System.Net.HttpWebRequestExtension.SetDefaultAccept(System.Net.HttpWebRequest)">
+            <summary>
+            
+            </summary>
+            <param name="request"></param>
+        </member>
+        <member name="M:System.Net.HttpWebRequestExtension.SetDefaultAcceptCharset(System.Net.HttpWebRequest)">
+            <summary>
+            
+            </summary>
+            <param name="request"></param>
+        </member>
+        <member name="M:System.Net.HttpWebRequestExtension.SetDefaultAcceptEncoding(System.Net.HttpWebRequest)">
+            <summary>
+            
+            </summary>
+            <param name="request"></param>
+        </member>
+        <member name="M:System.Net.HttpWebRequestExtension.SetDefaultAcceptLanguage(System.Net.HttpWebRequest)">
+            <summary>
+            
+            </summary>
+            <param name="request"></param>
+        </member>
+        <member name="M:System.Net.HttpWebRequestExtension.SetDefaultUserAgent(System.Net.HttpWebRequest)">
+            <summary>
+            
+            </summary>
+            <param name="request"></param>
+        </member>
+        <member name="M:System.Net.HttpWebRequestExtension.SetDefault(System.Net.HttpWebRequest)">
+            <summary>
+            
+            </summary>
+            <param name="request"></param>
+        </member>
+        <member name="M:System.Net.HttpWebRequestExtension.SetProxyAuthorization(System.Net.HttpWebRequest,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="request"></param>
+            <param name="type"></param>
+        </member>
+        <member name="M:System.Net.HttpWebRequestExtension.Write(System.Net.HttpWebRequest,System.Byte[])">
+            <summary>
+            
+            </summary>
+            <param name="request"></param>
+            <param name="bytes"></param>
+        </member>
+        <member name="M:System.Net.HttpWebRequestExtension.ReadBytes(System.Net.HttpWebRequest)">
+            <summary>
+            
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.Net.HttpWebRequestExtension.ReadString(System.Net.HttpWebRequest)">
+            <summary>
+            
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="T:System.RandomExtension">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:System.RandomExtension.NextBytes(System.Random,System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="random"></param>
+            <param name="count"></param>
+            <returns></returns>
+        </member>
+        <member name="T:System.Runtime.Serialization.Formatters.Binary.BinaryFormatterExtension">
+            <summary>
+            BinaryFormatter 扩展类
+            </summary>
+        </member>
+        <member name="M:System.Runtime.Serialization.Formatters.Binary.BinaryFormatterExtension.Serialize(System.Runtime.Serialization.Formatters.Binary.BinaryFormatter,System.Object)">
+            <summary>
+            
+            </summary>
+            <param name="formatter"></param>
+            <param name="graph"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.Runtime.Serialization.Formatters.Binary.BinaryFormatterExtension.Deserialize``1(System.Runtime.Serialization.Formatters.Binary.BinaryFormatter,System.Byte[])">
+            <summary>
+            反序列化指定 System.Byte[]
+            </summary>
+            <typeparam name="T">可序列化的类型</typeparam>
+            <param name="formatter"></param>
+            <param name="bytes">包含要反序列化的对象的 System.Byte[]</param>
+        </member>
+        <member name="M:System.Runtime.Serialization.Formatters.Binary.BinaryFormatterExtension.Deserialize``1(System.Runtime.Serialization.Formatters.Binary.BinaryFormatter,System.IO.Stream)">
+            <summary>
+            反序列化指定 System.IO.Stream
+            </summary>
+            <typeparam name="T">可序列化的类型</typeparam>
+            <param name="formatter"></param>
+            <param name="stream">包含要反序列化的对象的 System.IO.Stream</param>
+        </member>
+        <member name="T:System.Security.Cryptography.TEA">
+            <summary>
+            TEA 算法
+            </summary>
+        </member>
+        <member name="M:System.Security.Cryptography.TEA.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:System.Security.Cryptography.TEA.#ctor(System.Byte[])">
+            <summary>
+            构造函数
+            </summary>
+            <param name="key">TEA 密钥</param>
+        </member>
+        <member name="M:System.Security.Cryptography.TEA.#ctor(System.Byte[],System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="key"></param>
+            <param name="iteration"></param>
+        </member>
+        <member name="M:System.Security.Cryptography.TEA.Encrypt(System.Byte[])">
+            <summary>
+            加密指定的明文字节数组
+            </summary>
+            <param name="bytes">要加密的明文字节数组</param>
+            <returns>加密后的密文字节数组</returns>
+        </member>
+        <member name="M:System.Security.Cryptography.TEA.Decrypt(System.Byte[])">
+            <summary>
+            解密指定的密文字节数组
+            </summary>
+            <param name="bytes">要解密的密文字节数组</param>
+            <returns>解密后的明文字节数组</returns>
+        </member>
+        <member name="P:System.Security.Cryptography.TEA.Key">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:System.Security.Cryptography.TEA.Iteration">
+            <summary>
+            迭代次数
+            </summary>
+        </member>
+        <member name="P:System.Security.Cryptography.TEA.Endian">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:System.Security.Cryptography.TTEA">
+            <summary>
+            Tencent TEA
+            </summary>
+        </member>
+        <member name="M:System.Security.Cryptography.TTEA.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:System.Security.Cryptography.TTEA.#ctor(System.Byte[])">
+            <summary>
+            
+            </summary>
+            <param name="key"></param>
+        </member>
+        <member name="M:System.Security.Cryptography.TTEA.Encrypt(System.Byte[])">
+            <summary>
+            
+            </summary>
+            <param name="bytes"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.Security.Cryptography.TTEA.Decrypt(System.Byte[])">
+            <summary>
+            
+            </summary>
+            <param name="bytes"></param>
+            <returns></returns>
+        </member>
+        <member name="T:System.Security.Cryptography.XTEA">
+            <summary>
+            XTEA 算法
+            </summary>
+        </member>
+        <member name="M:System.Security.Cryptography.XTEA.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:System.Security.Cryptography.XTEA.#ctor(System.Byte[])">
+            <summary>
+            
+            </summary>
+            <param name="key"></param>
+        </member>
+        <member name="M:System.Security.Cryptography.XTEA.Encrypt(System.Byte[])">
+            <summary>
+            加密指定的明文字节数组
+            </summary>
+            <param name="bytes">要加密的明文字节数组</param>
+            <returns>加密后的密文字节数组</returns>
+        </member>
+        <member name="M:System.Security.Cryptography.XTEA.Decrypt(System.Byte[])">
+            <summary>
+            解密指定的密文字节数组
+            </summary>
+            <param name="bytes">要解密的密文字节数组</param>
+            <returns>解密后的明文字节数组</returns>
+        </member>
+        <member name="T:System.Security.Cryptography.XXTEA">
+            <summary>
+            XXTEA 算法
+            </summary>
+        </member>
+        <member name="M:System.Security.Cryptography.XXTEA.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:System.Security.Cryptography.XXTEA.#ctor(System.Byte[])">
+            <summary>
+            
+            </summary>
+            <param name="key"></param>
+        </member>
+        <member name="M:System.Security.Cryptography.XXTEA.Encrypt(System.Byte[])">
+            <summary>
+            加密指定的明文字节数组
+            </summary>
+            <param name="bytes">要加密的明文字节数组</param>
+            <returns>加密后的密文字节数组</returns>
+        </member>
+        <member name="M:System.Security.Cryptography.XXTEA.Decrypt(System.Byte[])">
+            <summary>
+            解密指定的密文字节数组
+            </summary>
+            <param name="bytes">要解密的密文字节数组</param>
+            <returns>解密后的明文字节数组</returns>
+        </member>
+        <member name="T:System.Security.Verification.CRC32">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:System.Security.Verification.CRC32.#ctor(System.UInt32)">
+            <summary>
+            
+            </summary>
+            <param name="polynomial"></param>
+        </member>
+        <member name="M:System.Security.Verification.CRC32.#ctor(System.UInt32,System.UInt32,System.UInt32)">
+            <summary>
+            
+            </summary>
+            <param name="polynomial"></param>
+            <param name="xorIn"></param>
+            <param name="xorOut"></param>
+        </member>
+        <member name="M:System.Security.Verification.CRC32.#ctor(System.UInt32,System.UInt32,System.UInt32,System.Boolean,System.Boolean)">
+            <summary>
+            
+            </summary>
+            <param name="polynomial"></param>
+            <param name="xorIn"></param>
+            <param name="xorOut"></param>
+            <param name="refIn"></param>
+            <param name="refOut"></param>
+        </member>
+        <member name="M:System.Security.Verification.CRC32.CreateTable">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:System.Security.Verification.CRC32.GetChecksum(System.Byte,System.UInt32)">
+            <summary>
+            
+            </summary>
+            <param name="b"></param>
+            <param name="checksum"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.Security.Verification.CRC32.GetChecksum(System.Byte[])">
+            <summary>
+            /
+            </summary>
+            <param name="bytes"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.Security.Verification.CRC32.GetChecksum(System.Byte[],System.Int32,System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="bytes"></param>
+            <param name="index"></param>
+            <param name="count"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.Security.Verification.CRC32.GetChecksum(System.Byte[],System.UInt32[])">
+            <summary>
+            
+            </summary>
+            <param name="bytes"></param>
+            <param name="table"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.Security.Verification.CRC32.GetChecksum(System.Byte[],System.Int32,System.Int32,System.UInt32[])">
+            <summary>
+            
+            </summary>
+            <param name="bytes"></param>
+            <param name="index"></param>
+            <param name="count"></param>
+            <param name="table"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.Security.Verification.CRC32.Create(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="algName"></param>
+            <returns></returns>
+        </member>
+        <member name="P:System.Security.Verification.CRC32.Polynomial">
+            <summary>
+            多项式系数
+            </summary>
+        </member>
+        <member name="P:System.Security.Verification.CRC32.XorIn">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:System.Security.Verification.CRC32.XorOut">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:System.Security.Verification.CRC32.RefIn">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:System.Security.Verification.CRC32.RefOut">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:System.Security.Verification.Luhn">
+            <summary>
+            Luhn 校验
+            </summary>
+        </member>
+        <member name="M:System.Security.Verification.Luhn.GetChecksum(System.String)">
+            <summary>
+            获取指定数字字符串的校验值
+            </summary>
+            <param name="s"></param>
+            <returns>字符串的校验值</returns>
+        </member>
+        <member name="T:System.Security.Verification.CRC16">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:System.Security.Verification.CRC16.#ctor(System.UInt16)">
+            <summary>
+            
+            </summary>
+            <param name="polynomial"></param>
+        </member>
+        <member name="M:System.Security.Verification.CRC16.#ctor(System.UInt16,System.UInt16,System.UInt16)">
+            <summary>
+            
+            </summary>
+            <param name="polynomial"></param>
+            <param name="xorIn"></param>
+            <param name="xorOut"></param>
+        </member>
+        <member name="M:System.Security.Verification.CRC16.#ctor(System.UInt16,System.UInt16,System.UInt16,System.Boolean,System.Boolean)">
+            <summary>
+            
+            </summary>
+            <param name="polynomial"></param>
+            <param name="xorIn"></param>
+            <param name="xorOut"></param>
+            <param name="refIn"></param>
+            <param name="refOut"></param>
+        </member>
+        <member name="M:System.Security.Verification.CRC16.CreateTable">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:System.Security.Verification.CRC16.GetChecksum(System.Byte,System.UInt16)">
+            <summary>
+            
+            </summary>
+            <param name="b"></param>
+            <param name="checksum"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.Security.Verification.CRC16.GetChecksum(System.Byte[])">
+            <summary>
+            /
+            </summary>
+            <param name="bytes"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.Security.Verification.CRC16.GetChecksum(System.Byte[],System.Int32,System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="bytes"></param>
+            <param name="index"></param>
+            <param name="count"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.Security.Verification.CRC16.GetChecksum(System.Byte[],System.UInt16[])">
+            <summary>
+            
+            </summary>
+            <param name="bytes"></param>
+            <param name="table"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.Security.Verification.CRC16.GetChecksum(System.Byte[],System.Int32,System.Int32,System.UInt16[])">
+            <summary>
+            
+            </summary>
+            <param name="bytes"></param>
+            <param name="index"></param>
+            <param name="count"></param>
+            <param name="table"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.Security.Verification.CRC16.Create(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="algName"></param>
+            <returns></returns>
+        </member>
+        <member name="P:System.Security.Verification.CRC16.Polynomial">
+            <summary>
+            多项式系数
+            </summary>
+        </member>
+        <member name="P:System.Security.Verification.CRC16.XorIn">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:System.Security.Verification.CRC16.XorOut">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:System.Security.Verification.CRC16.RefIn">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:System.Security.Verification.CRC16.RefOut">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:System.Security.Verification.CRC8">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:System.Security.Verification.CRC8.#ctor(System.Byte)">
+            <summary>
+            
+            </summary>
+            <param name="polynomial"></param>
+        </member>
+        <member name="M:System.Security.Verification.CRC8.#ctor(System.Byte,System.Byte,System.Byte)">
+            <summary>
+            
+            </summary>
+            <param name="polynomial"></param>
+            <param name="xorIn"></param>
+            <param name="xorOut"></param>
+        </member>
+        <member name="M:System.Security.Verification.CRC8.#ctor(System.Byte,System.Byte,System.Byte,System.Boolean,System.Boolean)">
+            <summary>
+            
+            </summary>
+            <param name="polynomial"></param>
+            <param name="xorIn"></param>
+            <param name="xorOut"></param>
+            <param name="refIn"></param>
+            <param name="refOut"></param>
+        </member>
+        <member name="M:System.Security.Verification.CRC8.CreateTable">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:System.Security.Verification.CRC8.GetChecksum(System.Byte,System.Byte)">
+            <summary>
+            
+            </summary>
+            <param name="b"></param>
+            <param name="checksum"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.Security.Verification.CRC8.GetChecksum(System.Byte[])">
+            <summary>
+            /
+            </summary>
+            <param name="bytes"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.Security.Verification.CRC8.GetChecksum(System.Byte[],System.Int32,System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="bytes"></param>
+            <param name="index"></param>
+            <param name="count"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.Security.Verification.CRC8.GetChecksum(System.Byte[],System.Byte[])">
+            <summary>
+            
+            </summary>
+            <param name="bytes"></param>
+            <param name="table"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.Security.Verification.CRC8.GetChecksum(System.Byte[],System.Int32,System.Int32,System.Byte[])">
+            <summary>
+            
+            </summary>
+            <param name="bytes"></param>
+            <param name="index"></param>
+            <param name="count"></param>
+            <param name="table"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.Security.Verification.CRC8.Create(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="algName"></param>
+            <returns></returns>
+        </member>
+        <member name="P:System.Security.Verification.CRC8.Polynomial">
+            <summary>
+            多项式系数
+            </summary>
+        </member>
+        <member name="P:System.Security.Verification.CRC8.XorIn">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:System.Security.Verification.CRC8.XorOut">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:System.Security.Verification.CRC8.RefIn">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:System.Security.Verification.CRC8.RefOut">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:System.StringExtension">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:System.StringExtension.ToDateTime(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.StringExtension.ToDateTime(System.String,System.IFormatProvider,System.Globalization.DateTimeStyles)">
+            <summary>
+            
+            </summary>
+            <param name="value"></param>
+            <param name="provider"></param>
+            <param name="style"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.StringExtension.ToDateTime(System.String,System.String,System.IFormatProvider,System.Globalization.DateTimeStyles)">
+            <summary>
+            
+            </summary>
+            <param name="value"></param>
+            <param name="format"></param>
+            <param name="provider"></param>
+            <param name="style"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.StringExtension.ToDateTime(System.String,System.String[],System.IFormatProvider,System.Globalization.DateTimeStyles)">
+            <summary>
+            
+            </summary>
+            <param name="value"></param>
+            <param name="formats"></param>
+            <param name="provider"></param>
+            <param name="style"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.StringExtension.ToDecimal(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.StringExtension.ToDecimal(System.String,System.Globalization.NumberStyles,System.IFormatProvider)">
+            <summary>
+            
+            </summary>
+            <param name="value"></param>
+            <param name="style"></param>
+            <param name="provider"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.StringExtension.ToDouble(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.StringExtension.ToDouble(System.String,System.Globalization.NumberStyles,System.IFormatProvider)">
+            <summary>
+            
+            </summary>
+            <param name="value"></param>
+            <param name="style"></param>
+            <param name="provider"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.StringExtension.ToUInt64(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.StringExtension.ToUInt64(System.String,System.Globalization.NumberStyles,System.IFormatProvider)">
+            <summary>
+            
+            </summary>
+            <param name="value"></param>
+            <param name="style"></param>
+            <param name="provider"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.StringExtension.ToInt64(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.StringExtension.ToInt64(System.String,System.Globalization.NumberStyles,System.IFormatProvider)">
+            <summary>
+            
+            </summary>
+            <param name="value"></param>
+            <param name="style"></param>
+            <param name="provider"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.StringExtension.ToUInt32(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.StringExtension.ToUInt32(System.String,System.Globalization.NumberStyles,System.IFormatProvider)">
+            <summary>
+            
+            </summary>
+            <param name="value"></param>
+            <param name="style"></param>
+            <param name="provider"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.StringExtension.ToInt32(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.StringExtension.ToInt32(System.String,System.Globalization.NumberStyles,System.IFormatProvider)">
+            <summary>
+            
+            </summary>
+            <param name="value"></param>
+            <param name="style"></param>
+            <param name="provider"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.StringExtension.ToUInt16(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.StringExtension.ToUInt16(System.String,System.Globalization.NumberStyles,System.IFormatProvider)">
+            <summary>
+            
+            </summary>
+            <param name="value"></param>
+            <param name="style"></param>
+            <param name="provider"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.StringExtension.ToInt16(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.StringExtension.ToInt16(System.String,System.Globalization.NumberStyles,System.IFormatProvider)">
+            <summary>
+            
+            </summary>
+            <param name="value"></param>
+            <param name="style"></param>
+            <param name="provider"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.StringExtension.ToByte(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.StringExtension.ToByte(System.String,System.Globalization.NumberStyles,System.IFormatProvider)">
+            <summary>
+            
+            </summary>
+            <param name="value"></param>
+            <param name="style"></param>
+            <param name="provider"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.StringExtension.ToUInt64(System.String,System.Int32)">
+            <summary>
+            将数字字符串转换为64位有符号整数
+            </summary>
+            <param name="value"></param>
+            <param name="radix">字符串中数字的基数，必须为2 ~ 36</param>
+            <returns></returns>
+        </member>
+        <member name="M:System.StringExtension.ToInt64(System.String,System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="value"></param>
+            <param name="radix"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.StringExtension.ToUInt32(System.String,System.Int32)">
+            <summary>
+            将数字字符串转换为32位无符号整数
+            </summary>
+            <param name="value"></param>
+            <param name="radix">字符串中数字的基数，必须为2 ~ 36</param>
+            <returns></returns>
+        </member>
+        <member name="M:System.StringExtension.ToInt32(System.String,System.Int32)">
+            <summary>
+            将数字字符串转换为32位有符号整数
+            </summary>
+            <param name="value"></param>
+            <param name="radix">字符串中数字的基数，必须为2 ~ 36</param>
+            <returns></returns>
+        </member>
+        <member name="M:System.StringExtension.ToUInt16(System.String,System.Int32)">
+            <summary>
+            将数字字符串转换为16位无符号整数
+            </summary>
+            <param name="value"></param>
+            <param name="radix">字符串中数字的基数，必须为2 ~ 36</param>
+            <returns></returns>
+        </member>
+        <member name="M:System.StringExtension.ToInt16(System.String,System.Int32)">
+            <summary>
+            将数字字符串转换为16位有符号整数
+            </summary>
+            <param name="value"></param>
+            <param name="radix">字符串中数字的基数，必须为2 ~ 36</param>
+            <returns></returns>
+        </member>
+        <member name="M:System.StringExtension.ToByte(System.String,System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="value"></param>
+            <param name="radix"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.StringExtension.ToByteArray(System.String,System.Int32,System.Int32)">
+            <summary>
+            将指定进制字符串转换为等效字节数组
+            </summary>
+            <param name="value"></param>
+            <param name="radix">字符串中数字的基数，必须为2 ~ 36</param>
+            <param name="width">每个字节占用的字符长度</param>
+            <returns></returns>
+        </member>
+        <member name="M:System.StringExtension.Split(System.String,System.String[])">
+            <summary>
+            
+            </summary>
+            <param name="value"></param>
+            <param name="separator"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.StringExtension.Split(System.String,System.String[],System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="value"></param>
+            <param name="count"></param>
+            <param name="separator"></param>
+            <returns></returns>
+        </member>
+        <member name="T:System.Net.IPAddressExtension">
+            <summary>
+            System.Net.IPAddress 扩展类
+            </summary>
+        </member>
+        <member name="M:System.Net.IPAddressExtension.IsIPv4Multicast(System.Net.IPAddress)">
+            <summary>
+            获取地址是否为 IPV4 广播地址
+            </summary>
+            <param name="address"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.Net.IPAddressExtension.IsIPv4LocalAreaNetwork(System.Net.IPAddress)">
+            <summary>
+            获取地址是否为 IPV4 局域网地址
+            <para>A类地址 10.0.0.0 ~ 10.255.255.255</para>
+            <para>B类地址 172.16.0.0 ~ 172.31.255.255</para>
+            <para>C类地址 192.168.0.0 ~ 192.168.255.255</para>
+            </summary>
+            <param name="address"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.Net.IPAddressExtension.IsIPv4WindowsReserved(System.Net.IPAddress)">
+            <summary>
+            获取地址是否为 IPV4 WINDOWS 保留地址 169.254.0.0 ~ 169.254.255.255
+            </summary>
+            <param name="address"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.Net.IPAddressExtension.IsIPv4Reserved(System.Net.IPAddress)">
+            <summary>
+            获取地址是否为 IPV4 保留地址 240.0.0.0 ~ 255.255.255.255
+            </summary>
+            <param name="address"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.Net.IPAddressExtension.IsIPv4Any(System.Net.IPAddress)">
+            <summary>
+            获取地址是否为指示所有IP地址的 IPV4 保留地址 0.0.0.0 ~ 0.255.255.255
+            </summary>
+            <param name="address"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.Net.IPAddressExtension.IsLoopback(System.Net.IPAddress)">
+            <summary>
+            获取地址是否为环回地址
+            </summary>
+            <param name="address"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.Net.IPAddressExtension.IsIPv4(System.Net.IPAddress)">
+            <summary>
+            获取地址是否为 IPV4 地址
+            </summary>
+            <param name="address"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.Net.IPAddressExtension.IsIPv4WideAreaNetwork(System.Net.IPAddress)">
+            <summary>
+            指示指定的 IP 地址是否广域网公有 IPV4 地址
+            </summary>
+            <param name="address"></param>
+            <returns></returns>
+        </member>
+        <member name="T:System.Text.RegularExpressions.MatchExtension">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:System.Text.RegularExpressions.MatchExtension.ResultOrDefault(System.Text.RegularExpressions.Match,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="match"></param>
+            <param name="replacement"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.Text.RegularExpressions.MatchExtension.ResultOrDefault(System.Text.RegularExpressions.Match,System.String,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="match"></param>
+            <param name="replacement"></param>
+            <param name="default"></param>
+            <returns></returns>
+        </member>
+        <member name="T:System.UInt16Extension">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:System.UInt16Extension.ToString(System.UInt16,System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="value"></param>
+            <param name="radix"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.UInt16Extension.ToByteArray(System.UInt16,System.Endian)">
+            <summary>
+            
+            </summary>
+            <param name="value"></param>
+            <param name="endian"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.UInt16Extension.Reverse(System.UInt16)">
+            <summary>
+            
+            </summary>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="T:System.UInt32Extension">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:System.UInt32Extension.ToString(System.UInt32,System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="value"></param>
+            <param name="radix"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.UInt32Extension.ToByteArray(System.UInt32,System.Endian)">
+            <summary>
+            
+            </summary>
+            <param name="value"></param>
+            <param name="endian"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.UInt32Extension.Reverse(System.UInt32)">
+            <summary>
+            
+            </summary>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="T:System.UInt64Extension">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:System.UInt64Extension.ToString(System.UInt64,System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="value"></param>
+            <param name="radix"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.UInt64Extension.ToByteArray(System.UInt64,System.Endian)">
+            <summary>
+            
+            </summary>
+            <param name="value"></param>
+            <param name="endian"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.UInt64Extension.Reverse(System.UInt64)">
+            <summary>
+            
+            </summary>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

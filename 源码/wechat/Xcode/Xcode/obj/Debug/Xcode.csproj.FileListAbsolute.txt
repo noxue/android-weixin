@@ -1,0 +1,60 @@
+H:\C#\微信协议\NewWechat\Xcode\Xcode\obj\Debug\Xcode.Form1.resources
+H:\C#\微信协议\NewWechat\Xcode\Xcode\obj\Debug\Xcode.Properties.Resources.resources
+H:\C#\微信协议\NewWechat\Xcode\Xcode\obj\Debug\Xcode.csproj.GenerateResource.cache
+H:\C#\微信协议\NewWechat\Xcode\Xcode\obj\Debug\Xcode.csproj.CoreCompileInputs.cache
+H:\C#\微信协议\NewWechat\Xcode\Xcode\bin\Debug\Xcode.exe.config
+H:\C#\微信协议\NewWechat\Xcode\Xcode\bin\Debug\Xcode.exe
+H:\C#\微信协议\NewWechat\Xcode\Xcode\bin\Debug\Xcode.pdb
+H:\C#\微信协议\NewWechat\Xcode\Xcode\bin\Debug\System.Extended.dll
+H:\C#\微信协议\NewWechat\Xcode\Xcode\bin\Debug\System.Extended.xml
+H:\C#\微信协议\NewWechat\Xcode\Xcode\obj\Debug\Xcode.csproj.CopyComplete
+H:\C#\微信协议\NewWechat\Xcode\Xcode\obj\Debug\Xcode.exe
+H:\C#\微信协议\NewWechat\Xcode\Xcode\obj\Debug\Xcode.pdb
+H:\C#\微信协议\NewWechat\Xcode\Xcode\obj\Debug\Xcode.exe.config
+H:\C#\微信协议\NewWechat\Xcode\Xcode\bin\Debug\ClassLibrary1.dll
+H:\C#\微信协议\NewWechat\Xcode\Xcode\bin\Debug\MMPro.dll
+H:\C#\微信协议\NewWechat\Xcode\Xcode\bin\Debug\Newtonsoft.Json.dll
+H:\C#\微信协议\NewWechat\Xcode\Xcode\bin\Debug\protobuf-net.dll
+H:\C#\微信协议\NewWechat\Xcode\Xcode\bin\Debug\zlib.net.dll
+H:\C#\微信协议\NewWechat\Xcode\Xcode\bin\Debug\MMPro.pdb
+H:\C#\微信协议\NewWechat\Xcode\Xcode\bin\Debug\Newtonsoft.Json.xml
+H:\C#\微信协议\NewWechat\Xcode\Xcode\bin\Debug\protobuf-net.xml
+H:\C#\微信协议\NewWechat\Xcode\Xcode\obj\Debug\Xcode.csprojAssemblyReference.cache
+C:\Users\Administrator\Desktop\Xcode\Xcode\bin\Debug\Xcode.exe.config
+C:\Users\Administrator\Desktop\Xcode\Xcode\bin\Debug\Xcode.exe
+C:\Users\Administrator\Desktop\Xcode\Xcode\bin\Debug\Xcode.pdb
+C:\Users\Administrator\Desktop\Xcode\Xcode\bin\Debug\zlib.net.dll
+C:\Users\Administrator\Desktop\Xcode\Xcode\bin\Debug\MMPro.pdb
+C:\Users\Administrator\Desktop\Xcode\Xcode\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Administrator\Desktop\Xcode\Xcode\bin\Debug\protobuf-net.xml
+C:\Users\Administrator\Desktop\Xcode\Xcode\bin\Debug\System.Extended.xml
+C:\Users\Administrator\Desktop\Xcode\Xcode\obj\Debug\Xcode.csprojAssemblyReference.cache
+C:\Users\Administrator\Desktop\Xcode\Xcode\obj\Debug\Xcode.exe.config
+C:\Users\Administrator\Desktop\Xcode\Xcode\obj\Debug\Xcode.Form1.resources
+C:\Users\Administrator\Desktop\Xcode\Xcode\obj\Debug\Xcode.Properties.Resources.resources
+C:\Users\Administrator\Desktop\Xcode\Xcode\obj\Debug\Xcode.csproj.GenerateResource.cache
+C:\Users\Administrator\Desktop\Xcode\Xcode\obj\Debug\Xcode.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\Xcode\Xcode\obj\Debug\Xcode.csproj.CopyComplete
+C:\Users\Administrator\Desktop\Xcode\Xcode\obj\Debug\Xcode.exe
+C:\Users\Administrator\Desktop\Xcode\Xcode\obj\Debug\Xcode.pdb
+C:\Users\angelo\Documents\Tencent Files\936638903\FileRecv\Xcode\Xcode\bin\Debug\Xcode.exe.config
+C:\Users\angelo\Documents\Tencent Files\936638903\FileRecv\Xcode\Xcode\bin\Debug\Xcode.exe
+C:\Users\angelo\Documents\Tencent Files\936638903\FileRecv\Xcode\Xcode\bin\Debug\Xcode.pdb
+C:\Users\angelo\Documents\Tencent Files\936638903\FileRecv\Xcode\Xcode\bin\Debug\Newtonsoft.Json.dll
+C:\Users\angelo\Documents\Tencent Files\936638903\FileRecv\Xcode\Xcode\bin\Debug\zlib.net.dll
+C:\Users\angelo\Documents\Tencent Files\936638903\FileRecv\Xcode\Xcode\bin\Debug\MMPro.pdb
+C:\Users\angelo\Documents\Tencent Files\936638903\FileRecv\Xcode\Xcode\bin\Debug\protobuf-net.xml
+C:\Users\angelo\Documents\Tencent Files\936638903\FileRecv\Xcode\Xcode\bin\Debug\System.Extended.xml
+C:\Users\angelo\Documents\Tencent Files\936638903\FileRecv\Xcode\Xcode\obj\Debug\Xcode.csprojAssemblyReference.cache
+C:\Users\angelo\Documents\Tencent Files\936638903\FileRecv\Xcode\Xcode\obj\Debug\Xcode.exe.config
+C:\Users\angelo\Documents\Tencent Files\936638903\FileRecv\Xcode\Xcode\obj\Debug\Xcode.Form1.resources
+C:\Users\angelo\Documents\Tencent Files\936638903\FileRecv\Xcode\Xcode\obj\Debug\Xcode.Properties.Resources.resources
+C:\Users\angelo\Documents\Tencent Files\936638903\FileRecv\Xcode\Xcode\obj\Debug\Xcode.csproj.GenerateResource.cache
+C:\Users\angelo\Documents\Tencent Files\936638903\FileRecv\Xcode\Xcode\obj\Debug\Xcode.csproj.CoreCompileInputs.cache
+C:\Users\angelo\Documents\Tencent Files\936638903\FileRecv\Xcode\Xcode\obj\Debug\Xcode.csproj.CopyComplete
+C:\Users\angelo\Documents\Tencent Files\936638903\FileRecv\Xcode\Xcode\obj\Debug\Xcode.exe
+C:\Users\angelo\Documents\Tencent Files\936638903\FileRecv\Xcode\Xcode\obj\Debug\Xcode.pdb
+C:\Users\angelo\Documents\Tencent Files\936638903\FileRecv\Xcode\Xcode\bin\Debug\Xcode.exe.manifest
+C:\Users\angelo\Documents\Tencent Files\936638903\FileRecv\Xcode\Xcode\bin\Debug\Xcode.application
+C:\Users\angelo\Documents\Tencent Files\936638903\FileRecv\Xcode\Xcode\obj\Debug\Xcode.exe.manifest
+C:\Users\angelo\Documents\Tencent Files\936638903\FileRecv\Xcode\Xcode\obj\Debug\Xcode.application
